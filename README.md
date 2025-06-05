@@ -12,6 +12,10 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
   - Sürüm: 4.11.1  
     - Dosya yolu: `themes/astra/4.11.1/`
 
+- **Flatsome**  
+  - Sürüm: 3.19.12  
+    - Dosya yolu: `themes/flatsome/3.19.12/`
+
 ### Eklentiler
 - **Post Views Counter**  
   - Sürüm: 1.5.5  
