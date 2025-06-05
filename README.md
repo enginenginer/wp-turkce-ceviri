@@ -12,6 +12,11 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
   - Sürüm: 4.11.1  
     - Dosya yolu: `themes/astra/4.11.1/`
 
+### Eklentiler
+- **Post Views Counter**  
+  - Sürüm: 1.5.5  
+    - Dosya yolu: `plugins/post-views-counter/1.5.5/
+`
 ## Kullanım
 
 1. İlgili `.po` ve `.mo` dosyalarını indir.
@@ -20,4 +25,4 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
 
 ## Lisans
 
-Çeviri dosyaları herkese açık olarak sunulmuştur.
+Çeviri dosyaları tarafımdan hazırlanmış ve herkese açık olarak sunulmuştur.
