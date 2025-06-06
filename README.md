@@ -16,11 +16,19 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
   - Sürüm: 3.19.12  
     - Dosya yolu: `themes/flatsome/3.19.12/`
 
+- **Woodmart**  
+  - Sürüm: 8.2.0  
+    - Dosya yolu: `themes/woodmart/8.2.0/`
+
 ### Eklentiler
 - **Post Views Counter**  
   - Sürüm: 1.5.5  
     - Dosya yolu: `plugins/post-views-counter/1.5.5/
-`
+
+- **Woocommerce**  
+  - Sürüm: 9.8.5  
+    - Dosya yolu: `plugins/woocommerce/9.8.5/
+
 ## Kullanım
 
 1. İlgili `.po` ve `.mo` dosyalarını indir.
