@@ -3,7 +3,7 @@ Wordpress Türkçe çeviri dosyaları
 
 # WordPress Türkçe Çeviri Dosyaları
 
-Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları (`.po` ve `.mo`) yer almaktadır. Dosyalar Loco Translate eklentisi ile hazırlanmıştır.
+Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları (`.po` ve `.mo`) yer almaktadır.
 
 ## Mevcut Çeviriler
 
@@ -34,6 +34,8 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
 1. İlgili `.po` ve `.mo` dosyalarını indir.
 2. `wp-content/languages/themes/` veya `wp-content/languages/plugins/` klasörüne yükle.
 3. WordPress yönetici panelinde Ayarlar > Genel > Site Dili: **Türkçe** olduğundan emin ol.
+
+**Not**: loco-import klasöründe Loco Translate eklentisi üzerinden “İçe Aktar” seçeneğiyle yüklemek isteyenler için sadeleştirilmiş `.po` dosyası bulunur. Bu dosyayı içe aktardıktan sonra sistem `.mo` dosyasını otomatik olarak oluşturur.
 
 ## Lisans
 
