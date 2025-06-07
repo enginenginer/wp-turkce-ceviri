@@ -23,11 +23,11 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
 ### Eklentiler
 - **Post Views Counter**  
   - Sürüm: 1.5.5  
-    - Dosya yolu: `plugins/post-views-counter/1.5.5/
+    - Dosya yolu: `plugins/post-views-counter/1.5.5/`
 
 - **Woocommerce**  
   - Sürüm: 9.8.5  
-    - Dosya yolu: `plugins/woocommerce/9.8.5/
+    - Dosya yolu: `plugins/woocommerce/9.8.5/`
 
 ## Kullanım
 
