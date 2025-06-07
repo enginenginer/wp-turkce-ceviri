@@ -1,4 +1,4 @@
-# wp-ceviri
+# wp-turkce-ceviri
 Wordpress Türkçe çeviri dosyaları
 
 # WordPress Türkçe Çeviri Dosyaları
