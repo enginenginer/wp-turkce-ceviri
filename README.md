@@ -21,6 +21,10 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
     - Dosya yolu: `themes/woodmart/8.2.0/`
 
 ### Eklentiler
+- **LiteSpeed Cache**  
+  - Sürüm: 7.1  
+    - Dosya yolu: `plugins/litespeed-cache/7.1/`
+
 - **Post Views Counter**  
   - Sürüm: 1.5.5  
     - Dosya yolu: `plugins/post-views-counter/1.5.5/`
