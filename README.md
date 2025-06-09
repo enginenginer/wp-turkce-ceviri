@@ -21,6 +21,10 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
     - Dosya yolu: `themes/woodmart/8.2.0/`
 
 ### Eklentiler
+- **Astra Pro**  
+  - Sürüm: 4.11.1  
+    - Dosya yolu: `plugins/astra-pro/4.11.1/`
+
 - **LiteSpeed Cache**  
   - Sürüm: 7.1  
     - Dosya yolu: `plugins/litespeed-cache/7.1/`
