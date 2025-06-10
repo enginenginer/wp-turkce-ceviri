@@ -29,6 +29,10 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
   - Sürüm: 7.1  
     - Dosya yolu: `plugins/litespeed-cache/7.1/`
 
+- **Points and Rewards for WooCommerce**  
+  - Sürüm: 2.8.0  
+    - Dosya yolu: `plugins/points-and-rewards-for-woocommerce/2.8.0/`
+
 - **Post Views Counter**  
   - Sürüm: 1.5.5  
     - Dosya yolu: `plugins/post-views-counter/1.5.5/`
