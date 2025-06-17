@@ -37,6 +37,10 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
   - Sürüm: 1.5.5  
     - Dosya yolu: `plugins/post-views-counter/1.5.5/`
 
+- **Spectra**  
+  - Sürüm: 2.19.10  
+    - Dosya yolu: `plugins/spectra/2.19.10/`
+
 - **Woocommerce**  
   - Sürüm: 9.8.5  
     - Dosya yolu: `plugins/woocommerce/9.8.5/`
