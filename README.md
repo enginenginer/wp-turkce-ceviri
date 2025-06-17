@@ -9,8 +9,8 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
 
 ### Temalar
 - **Astra**  
-  - Sürüm: 4.11.2  
-    - Dosya yolu: `themes/astra/4.11.2/`
+  - Sürüm: 4.11.1  
+    - Dosya yolu: `themes/astra/4.11.1/`
 
 - **Flatsome**  
   - Sürüm: 3.19.12  
@@ -22,8 +22,8 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
 
 ### Eklentiler
 - **Astra Pro**  
-  - Sürüm: 4.11.1  
-    - Dosya yolu: `plugins/astra-pro/4.11.1/`
+  - Sürüm: 4.11.2  
+    - Dosya yolu: `plugins/astra-pro/4.11.2/`
 
 - **LiteSpeed Cache**  
   - Sürüm: 7.1  
