@@ -1,0 +1,3306 @@
+# Copyright (C) 2025 Brainstorm Force
+# This file is distributed under the GPL v2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Spectra Pro 1.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/spectra-pro\n"
+"Last-Translator: enginenginer\n"
+"Language-Team: Türkçe\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-19T11:40:35+00:00\n"
+"PO-Revision-Date: 2025-06-18 17:22+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: spectra-pro\n"
+"Language: tr-TR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.8.0; wp-6.8.1; php-8.1.32"
+
+#. Plugin Name of the plugin
+#: spectra-pro.php core/assets.php:62
+msgid "Spectra Pro"
+msgstr "Spectra Pro"
+
+#. Plugin URI of the plugin
+#: spectra-pro.php
+msgid "https://wpspectra.com/"
+msgstr "https://wpspectra.com/"
+
+#. Description of the plugin
+#: spectra-pro.php
+msgid ""
+"Enhance Spectra with new features and blocks, as well as extended "
+"functionality for existing blocks."
+msgstr ""
+"Spectra'yı yeni özellikler ve bloklarla geliştirin, ayrıca mevcut bloklar "
+"için genişletilmiş işlevsellik sağlayın."
+
+#. Author of the plugin
+#: spectra-pro.php
+msgid "Brainstorm Force"
+msgstr "Brainstorm Force"
+
+#. Author URI of the plugin
+#: spectra-pro.php
+msgid "https://www.brainstormforce.com"
+msgstr "https://www.brainstormforce.com"
+
+#: admin/license-handler.php:87
+msgid "License key not found."
+msgstr "Lisans anahtarı bulunamadı."
+
+#: admin/license-handler.php:113
+msgid "Plugin Successfully Activated"
+msgstr "Eklenti Başarıyla Etkinleştirildi"
+
+#: admin/license-handler.php:149
+msgid "Plugin Successfully Deactivated"
+msgstr "Eklenti Başarıyla Devre Dışı Bırakıldı"
+
+#: admin/license-handler.php:196
+msgid "Sorry, you are not allowed to do this operation."
+msgstr "Üzgünüz, bu işlemi yapmanıza izin verilmiyor."
+
+#: admin/license-handler.php:197
+msgid "Nonce validation failed"
+msgstr "Nonce doğrulaması başarısız oldu"
+
+#: admin/license-handler.php:198
+msgid "Sorry, something went wrong."
+msgstr "Üzgünüz, bir sorun oluştu."
+
+#: blocks-config/instagram-feed/block.php:172 
+#: includes/blocks/instagram-feed/attributes.php:33 dist/blocks.js:8
+msgid "No Caption"
+msgstr "Alt Yazı Yok"
+
+#: blocks-config/instagram-feed/block.php:395 
+#: includes/blocks/instagram-feed/attributes.php:93 dist/blocks.js:8 
+#: dist/blocks.js:10
+msgid "Load More"
+msgstr "Daha Fazla Yükle"
+
+#: blocks-config/instagram-feed/block.php:1162 dist/blocks.js:10
+msgid "Click to view post"
+msgstr "Yazıyı görüntülemek için tıklayın"
+
+#: blocks-config/instagram-feed/block.php:1169 dist/blocks.js:10
+msgid "Contains Copyrighted Material"
+msgstr "Telif Hakkıyla Korunan Malzeme İçerir"
+
+#. translators: %1$s user name
+#: blocks-config/login/block.php:303 blocks-config/register/block.php:243
+msgid "You are logged in as %1$s (%2$sLogout%3$s)"
+msgstr "%1$s olarak oturum açtınız (%2$sÇıkış%3$s)"
+
+#: blocks-config/login/block.php:350 dist/blocks.js:6
+msgid "Show Password"
+msgstr "Şifreyi Göster"
+
+#: blocks-config/login/block.php:476 blocks-config/register/block.php:377
+msgid "Captcha is not matching, please try again."
+msgstr "Captcha uyuşmuyor, lütfen tekrar deneyin."
+
+#: blocks-config/login/block.php:498
+msgid "You have successfully logged in. Redirecting..."
+msgstr "Başarıyla giriş yaptınız. Yönlendiriliyor..."
+
+#: blocks-config/login/block.php:528
+msgid ""
+"The username/password field is empty. Please add a valid username/email to "
+"reset your password."
+msgstr ""
+"Kullanıcı adı/şifre alanı boş. Lütfen şifrenizi sıfırlamak için geçerli bir "
+"kullanıcı adı/e-posta ekleyin."
+
+#: blocks-config/login/block.php:542
+msgid ""
+"No user found. Please add a registered username/email to reset your password,"
+" else create an account."
+msgstr ""
+"Kullanıcı bulunamadı. Lütfen şifrenizi sıfırlamak için kayıtlı bir kullanıcı "
+"adı/e-posta adresi ekleyin, aksi takdirde bir hesap oluşturun."
+
+#: blocks-config/login/block.php:558
+msgid "Someone has requested a password reset for the following account:"
+msgstr "Birisi aşağıdaki hesap için parola sıfırlama talebinde bulundu:"
+
+#. translators: %s: Username.
+#: blocks-config/login/block.php:562
+msgid "Username: %s"
+msgstr "Kullanıcı Adı: %s"
+
+#: blocks-config/login/block.php:565
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Eğer bu bir hataysa, bu e-postayı dikkate almayın, hiçbir şey olmayacak."
+
+#: blocks-config/login/block.php:566
+msgid "To reset your password, visit the following address:"
+msgstr "Şifrenizi sıfırlamak için aşağıdaki adresi ziyaret edin:"
+
+#: blocks-config/login/block.php:571
+msgid "Unknown Site"
+msgstr "Bilinmeyen Site"
+
+#. translators: %s: Password reset.
+#: blocks-config/login/block.php:578
+msgid "[%s] Password Reset"
+msgstr "[%s] Parola Sıfırlama"
+
+#: blocks-config/login/block.php:586
+msgid "Please check your email for the password reset link."
+msgstr "Lütfen şifre sıfırlama bağlantısı için e-postanızı kontrol edin."
+
+#: blocks-config/login/block.php:588
+msgid "Email failed to send."
+msgstr "E-posta gönderilemedi."
+
+#: blocks-config/register/block.php:114
+msgid "You have used an invalid email"
+msgstr "Geçersiz bir e-posta kullandınız"
+
+#: blocks-config/register/block.php:118
+msgid "Email is missing or invalid"
+msgstr "E-posta eksik veya geçersiz"
+
+#: blocks-config/register/block.php:122
+msgid ""
+"The provided email is already registered with another account. Please login "
+"or reset password or use another email."
+msgstr ""
+"Girilen e-posta başka bir hesapla zaten kayıtlı. Lütfen giriş yapın veya "
+"şifrenizi sıfırlayın veya başka bir e-posta kullanın."
+
+#: blocks-config/register/block.php:127
+msgid "You have used an invalid username"
+msgstr "Geçersiz bir kullanıcı adı kullandınız"
+
+#: blocks-config/register/block.php:131
+msgid "Invalid username provided or the username is already registered."
+msgstr "Geçersiz kullanıcı adı sağlandı veya kullanıcı adı zaten kayıtlı."
+
+#: blocks-config/register/block.php:136
+msgid "Your password is invalid."
+msgstr "Şifreniz geçersiz."
+
+#: blocks-config/register/block.php:140
+msgid "Your passwords do not match."
+msgstr "Şifreleriniz uyuşmuyor."
+
+#: blocks-config/register/block.php:158
+msgid "Please accept the Terms and Conditions, and try again."
+msgstr "Lütfen Şartlar ve Koşullar'ı kabul edip tekrar deneyin."
+
+#: blocks-config/register/block.php:162
+msgid "Something went wrong!"
+msgstr "Bir şeyler ters gitti!"
+
+#: blocks-config/register/block.php:167
+msgid ""
+"Registration completed successfully. Check your inbox for password if you "
+"did not provide it while registering."
+msgstr ""
+"Kayıt başarıyla tamamlandı. Kayıt sırasında şifrenizi belirlemediyseniz "
+"gelen kutunuzu kontrol edin."
+
+#: blocks-config/register/block.php:336
+msgid "Sorry, the site admin has disabled new user registration"
+msgstr "Üzgünüz, site yöneticisi yeni kullanıcı kaydını devre dışı bıraktı"
+
+#: blocks-config/register/block.php:350
+msgid "Not a valid post."
+msgstr "Geçerli bir gönderi değil."
+
+#: blocks-config/register/block.php:387
+msgid "Password may not contain the character \"\\\""
+msgstr "Şifre \"\\\" karakterini içeremez"
+
+#: blocks-config/register/block.php:392 blocks-config/register/block.php:395
+msgid "This field is required."
+msgstr "Bu alan zorunludur."
+
+#: blocks-config/register/block.php:610
+msgid "– Select –"
+msgstr "– Seç –"
+
+#: core/assets.php:42
+msgid "cannot be blank."
+msgstr "boş bırakılamaz."
+
+#: core/assets.php:43 dist/blocks.js:8 dist/blocks.js:19
+msgid "First Name"
+msgstr "Ad"
+
+#: core/assets.php:44 dist/blocks.js:8 dist/blocks.js:19
+msgid "Last Name"
+msgstr "Soyad"
+
+#: core/assets.php:45
+msgid "This field"
+msgstr "Bu alan"
+
+#: includes/blocks/instagram-feed/block.php:16 dist/blocks-placeholder.js:9 
+#: dist/blocks.js:8 dist/blocks.js:10 dist/blocks.js:14
+msgid "Instagram Feed"
+msgstr "Instagram Akışı"
+
+#: includes/blocks/instagram-feed/block.php:17 dist/blocks.js:14
+msgid "This block allows you to display Instagram Feeds on your website."
+msgstr ""
+"Bu blok, Instagram Akışlarını web sitenizde görüntülemenize olanak tanır."
+
+#: includes/blocks/login/attributes.php:285
+msgid "Username or Email Address"
+msgstr "Kullanıcı adı veya E-posta Adresi"
+
+#: includes/blocks/login/attributes.php:286 dist/blocks.js:6 dist/blocks.js:8
+msgid "Password"
+msgstr "Şifre"
+
+#: includes/blocks/login/block.php:16 dist/blocks-placeholder.js:10 
+#: dist/blocks.js:6
+msgid "Login Form"
+msgstr "Giriş Formu"
+
+#: includes/blocks/login/block.php:17
+msgid "This block lets you add a user login form."
+msgstr "Bu blok kullanıcı giriş formu alanının eklenmesine yardımcı olur."
+
+#. translators: %s: Attribute User Name Label value or This Field.
+#. translators: %s: Attribute Password Label value or This Field.
+#: includes/blocks/login/frontend.js.php:24 
+#: includes/blocks/login/frontend.js.php:29
+msgid "%s cannot be blank."
+msgstr "%s boş olamaz."
+
+#: includes/blocks/login/frontend.js.php:25 
+#: includes/blocks/login/frontend.js.php:30
+msgid "This Field"
+msgstr "Bu Alan"
+
+#: includes/blocks/loop-builder/block.php:16 dist/blocks-placeholder.js:13 
+#: dist/blocks.js:15
+msgid "Loop Builder"
+msgstr "Döngü Oluşturucu"
+
+#: includes/blocks/loop-builder/block.php:17
+msgid "This block allows you to generate custom loop from different posts."
+msgstr "Bu blok farklı yazılardan özel döngüler oluşturmanıza olanak tanır."
+
+#: includes/blocks/loop-category/block.php:14 dist/blocks-placeholder.js:11 
+#: dist/blocks.js:15
+msgid "Category - Filter"
+msgstr "Kategori - Filtre"
+
+#: includes/blocks/loop-category/block.php:15 dist/blocks.js:15
+msgid "Add category filters to your loop builder."
+msgstr "Döngü oluşturucunuza kategori filtreleri ekleyin."
+
+#: includes/blocks/loop-reset/block.php:14 
+#: includes/extensions/query-loop.php:149 dist/blocks-placeholder.js:14 
+#: dist/blocks.js:15
+msgid "Reset - Filter"
+msgstr "Sıfırla - Filtre"
+
+#: includes/blocks/loop-reset/block.php:15
+msgid "Reset filter allows user to reset the loop filter."
+msgstr ""
+"Filtreyi sıfırla, kullanıcının döngü filtresini sıfırlamasına olanak tanır."
+
+#: includes/blocks/loop-search/block.php:14 
+#: includes/extensions/query-loop.php:121 dist/blocks-placeholder.js:15 
+#: dist/blocks.js:15
+msgid "Search - Filter"
+msgstr "Arama - Filtre"
+
+#: includes/blocks/loop-search/block.php:15
+msgid "Search filter allows user to search posts in the loop."
+msgstr ""
+"Arama filtresi kullanıcının döngüdeki gönderileri aramasına olanak tanır."
+
+#: includes/blocks/loop-sort/block.php:14 dist/blocks-placeholder.js:16 
+#: dist/blocks.js:15
+msgid "Sorting - Filter"
+msgstr "Sıralama - Filtre"
+
+#: includes/blocks/loop-sort/block.php:15
+msgid "Sorting filter allows user to sort posts in the loop."
+msgstr ""
+"Sıralama filtresi kullanıcının döngüdeki gönderileri sıralamasına olanak "
+"tanır."
+
+#: includes/blocks/loop-wrapper/block.php:14 
+#: includes/extensions/query-loop.php:107 dist/blocks-placeholder.js:17 
+#: dist/blocks.js:15
+msgid "Wrapper"
+msgstr "Sarmalayıcı"
+
+#: includes/blocks/loop-wrapper/block.php:15
+msgid "Loop Builder wrapper."
+msgstr "Döngü Oluşturucu Sarmalayıcı"
+
+#: includes/blocks/register/attributes.php:291
+msgid "You have used an invalid email."
+msgstr "Geçersiz bir e-posta kullandınız."
+
+#: includes/blocks/register/attributes.php:292
+msgid "Please enter a valid email address."
+msgstr "Lütfen geçerli bir e-posta adresi girin."
+
+#: includes/blocks/register/attributes.php:293
+msgid "Email already in use. Please try to sign in."
+msgstr "E-posta zaten kullanılıyor. Lütfen giriş yapmayı deneyin."
+
+#: includes/blocks/register/attributes.php:294
+msgid "Invalid user name. Please try again."
+msgstr "Geçersiz kullanıcı adı. Lütfen tekrar deneyin."
+
+#: includes/blocks/register/attributes.php:295
+msgid "Username is already taken."
+msgstr "Kullanıcı adı daha önce alınmış."
+
+#: includes/blocks/register/attributes.php:296
+msgid "Password cannot be accepted. Please try something else."
+msgstr "Şifre kabul edilemiyor. Lütfen başka bir şey deneyin."
+
+#: includes/blocks/register/attributes.php:297
+msgid "Passwords do not match."
+msgstr "Şifreler uyuşmuyor."
+
+#: includes/blocks/register/attributes.php:298
+msgid "Please try again after accepting terms & conditions."
+msgstr "Lütfen şartlar ve koşulları kabul ettikten sonra tekrar deneyin."
+
+#: includes/blocks/register/attributes.php:299
+msgid "Something went wrong! Please try again."
+msgstr "Bir şeyler ters gitti! Lütfen tekrar deneyin."
+
+#: includes/blocks/register/attributes.php:300
+msgid "Registration successful. Please check your email inbox."
+msgstr "Kayıt başarılı. Lütfen e-posta gelen kutunuzu kontrol edin."
+
+#: includes/blocks/register/block.php:16 dist/blocks-placeholder.js:18 
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "Registration Form"
+msgstr "Kayıt Formu"
+
+#: includes/blocks/register/block.php:17
+msgid "This block lets you add a user register form."
+msgstr "Bu blok kullanıcı kayıt formu alanının eklenmesine yardımcı olur."
+
+#: includes/extensions/dynamic-content/dynamic-content.php:696
+msgid "Empty Fields"
+msgstr "Boş Alanlar"
+
+#. translators: %s: human readable time string.
+#: includes/extensions/dynamic-content/helper.php:74
+msgid "%s ago"
+msgstr "%s önce"
+
+#. translators: %s: Search term.
+#: includes/extensions/dynamic-content/helper.php:242
+msgid "Search Results for: %s"
+msgstr "Arama Sonuçları: %s"
+
+#. translators: %s is the page number.
+#: includes/extensions/dynamic-content/helper.php:246
+msgid "&nbsp;&ndash; Page %s"
+msgstr "– Sayfa %s"
+
+#. translators: Category archive title. 1: Category name
+#: includes/extensions/dynamic-content/helper.php:253
+msgid "Category: %s"
+msgstr "Kategori: %s"
+
+#. translators: Tag archive title. 1: Tag name
+#: includes/extensions/dynamic-content/helper.php:259
+msgid "Tag: %s"
+msgstr "Etiket: %s"
+
+#. translators: Author archive title. 1: Author name
+#: includes/extensions/dynamic-content/helper.php:266
+msgid "Author: %s"
+msgstr "Yazar: %s"
+
+#: includes/extensions/dynamic-content/helper.php:269
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#. translators: Yearly archive title. 1: Year
+#: includes/extensions/dynamic-content/helper.php:273
+msgid "Year: %s"
+msgstr "Yıl: %s"
+
+#: includes/extensions/dynamic-content/helper.php:276
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#. translators: Monthly archive title. 1: Month name and year
+#: includes/extensions/dynamic-content/helper.php:280
+msgid "Month: %s"
+msgstr "Ay: %s"
+
+#: includes/extensions/dynamic-content/helper.php:283
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#. translators: Daily archive title. 1: Date
+#: includes/extensions/dynamic-content/helper.php:287
+msgid "Day: %s"
+msgstr "Gün: %s"
+
+#: includes/extensions/dynamic-content/helper.php:291
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Kısa Notlar"
+
+#: includes/extensions/dynamic-content/helper.php:293
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galeriler"
+
+#: includes/extensions/dynamic-content/helper.php:295
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Görseller"
+
+#: includes/extensions/dynamic-content/helper.php:297
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videolar"
+
+#: includes/extensions/dynamic-content/helper.php:299
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Alıntılar"
+
+#: includes/extensions/dynamic-content/helper.php:301
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Bağlantılar"
+
+#: includes/extensions/dynamic-content/helper.php:303
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Durumlar"
+
+#: includes/extensions/dynamic-content/helper.php:305
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Ses"
+
+#: includes/extensions/dynamic-content/helper.php:307
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Sohbetler"
+
+#. translators: Post type archive title. 1: Post type name
+#: includes/extensions/dynamic-content/helper.php:314
+msgid "Archives: %s"
+msgstr "Arşivler: %s"
+
+#. translators: Taxonomy term archive title. 1: Taxonomy singular name, 2: Current taxonomy term
+#: includes/extensions/dynamic-content/helper.php:322
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: includes/extensions/dynamic-content/helper.php:325
+msgid "Archives"
+msgstr "Arşivler"
+
+#: includes/extensions/dynamic-content/helper.php:327
+msgid "Page Not Found"
+msgstr "Sayfa Bulunamadı"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:67
+msgid "404 Page"
+msgstr "404 Sayfası"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:68
+msgid "Search Page"
+msgstr "Arama Sayfası"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:69
+msgid "Blog / Posts Page"
+msgstr "Blog / Gönderiler Sayfası"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:70
+msgid "Front Page"
+msgstr "Ön Sayfa"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:71
+msgid "Date Archive"
+msgstr "Tarih Arşivi"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:72
+msgid "Author Archive"
+msgstr "Yazar Arşivi"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:76
+msgid "WooCommerce Shop Page"
+msgstr "WooCommerce Mağaza Sayfası"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:81
+msgid "Basic"
+msgstr "Temel"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:83
+msgid "All Singulars"
+msgstr "Tüm Tekiller"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:84
+msgid "All Archives"
+msgstr "Tüm Arşivler"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:89
+msgid "Special Pages"
+msgstr "Özel Sayfalar"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:138
+msgid "Specific Target"
+msgstr "Belirli Hedef"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:140
+msgid "Specific Pages / Posts / CPTs"
+msgstr "Belirli Sayfalar / Gönderiler / CPT'ler"
+
+#. translators: %s post label
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:164
+msgid "All %s"
+msgstr "Tüm %s"
+
+#. translators: %s post label
+#. translators: %s taxonomy label
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:169 
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:178
+msgid "All %s Archive"
+msgstr "Tüm %s Arşivi"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:374
+msgid "Edit Info Bar"
+msgstr "Bilgi Çubuğunu Düzenle"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:377
+msgid "Edit Popup"
+msgstr "Popup'ı Düzenle"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:380 
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:427 
+#: assets/js/spectra-pro-popup-builder-admin.js:125
+msgid "Edit"
+msgstr "Düzenle"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:417
+msgid "Display On:"
+msgstr "Göster:"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:419
+msgid "Do Not Display On:"
+msgstr "Gösterme:"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:424
+msgid "Status:"
+msgstr "Durum:"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:424
+msgid "Created:"
+msgstr "Oluşturuldu:"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:485
+msgid "Trigger"
+msgstr "Tetikleyici"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:487
+msgid "Quick View"
+msgstr "Hızlı Görünüm"
+
+#. translators: %1$s break tag and opening emphasis tag, %2$s number of seconds, %3$s singular or plural form of second, %4%s closing emphasis tag
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:518
+msgid "On Load%1$sAfter %2$s %3$s%4$s"
+msgstr "Yüklemede%1$s%2$s %3$s Sonra%4$s"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:521
+msgid "Second"
+msgid_plural "Seconds"
+msgstr[0] "Saniye"
+msgstr[1] "Saniye"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:525
+msgid "On Load"
+msgstr "Yüklemede"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:529 
+#: dist/blocks.js:15 dist/blocks.js:23
+msgid "Exit Intent"
+msgstr "Çıkış İsteği"
+
+#: includes/extensions/popup-builder/spectra-pro-popup-builder.php:532
+msgid "Custom Element"
+msgstr "Özel Öğe"
+
+#: includes/extensions/query-loop.php:135
+msgid "Sort - Filter"
+msgstr "Sıralama - Filtre"
+
+#: includes/extensions/query-loop.php:163
+msgid "Loop Builder - Pagination"
+msgstr "Döngü Oluşturucu - Sayfalandırma"
+
+#: includes/extensions/query-loop.php:176
+msgid "Loop Builder - Category"
+msgstr "Döngü Oluşturucu  - Kategori"
+
+#: includes/extensions/query-loop.php:373 dist/blocks.js:15
+msgid "Search"
+msgstr "Arama"
+
+#: includes/extensions/query-loop.php:460 
+#: includes/extensions/query-loop.php:516 dist/blocks.js:15
+msgid "Sort by title (Z-A)"
+msgstr "Başlığa göre sırala (Z-A)"
+
+#: includes/extensions/query-loop.php:461 
+#: includes/extensions/query-loop.php:517 dist/blocks.js:15
+msgid "Sort by title (A-Z)"
+msgstr "Başlığa göre sırala (A-Z)"
+
+#: includes/extensions/query-loop.php:462 
+#: includes/extensions/query-loop.php:518 dist/blocks.js:15
+msgid "Sort by newest"
+msgstr "En yeniye göre sırala"
+
+#: includes/extensions/query-loop.php:463 
+#: includes/extensions/query-loop.php:519 dist/blocks.js:15
+msgid "Sort by oldest"
+msgstr "En eskiye göre sırala"
+
+#: includes/extensions/query-loop.php:464 
+#: includes/extensions/query-loop.php:520 dist/blocks.js:15
+msgid "Post ID descending"
+msgstr "Gönderi Kimliği azalan"
+
+#: includes/extensions/query-loop.php:465 
+#: includes/extensions/query-loop.php:521 dist/blocks.js:15
+msgid "Post ID ascending"
+msgstr "Gönderi Kimliği artan"
+
+#: includes/extensions/query-loop.php:466 
+#: includes/extensions/query-loop.php:522 dist/blocks.js:15
+msgid "Modified last"
+msgstr "En son değiştirildi"
+
+#: includes/extensions/query-loop.php:467 
+#: includes/extensions/query-loop.php:523 dist/blocks.js:15
+msgid "Modified recently"
+msgstr "Yakın zamanda değiştirildi"
+
+#: includes/extensions/query-loop.php:468 
+#: includes/extensions/query-loop.php:524 dist/blocks.js:15
+msgid "Sort by author (Z-A)"
+msgstr "Yazara göre sırala (Z-A)"
+
+#: includes/extensions/query-loop.php:469 
+#: includes/extensions/query-loop.php:525 dist/blocks.js:15
+msgid "Sort by author (A-Z)"
+msgstr "Yazara göre sırala (A-Z)"
+
+#: includes/extensions/query-loop.php:571 
+#: includes/extensions/query-loop.php:841 dist/blocks.js:15
+msgid "Select"
+msgstr "Seç"
+
+#: includes/extensions/query-loop.php:1132
+msgid "Invalid nonce"
+msgstr "Geçersiz nonce"
+
+#: includes/extensions/query-loop.php:1137 
+#: includes/extensions/query-loop.php:1183
+msgid "Invalid post id"
+msgstr "Geçersiz gönderi kimliği"
+
+#: includes/extensions/query-loop.php:1308
+msgid "Loop builder block not found."
+msgstr "Döngü oluşturucu bloğu bulunamadı."
+
+#: includes/extensions/query-loop.php:1416
+msgid "No results found!"
+msgstr "Sonuç bulunamadı!"
+
+#: includes/extensions/query-loop.php:1426
+msgid "Loop wrapper block not found."
+msgstr "Döngü sarmalayıcı bloğu bulunamadı."
+
+#: plugin-loader.php:206
+msgid "Activate the Spectra Plugin"
+msgstr "Spectra Eklentisini Etkinleştirin"
+
+#: plugin-loader.php:207
+msgid ""
+"Before you can use all the features of Spectra Pro, you need to activate the "
+"Spectra plugin first."
+msgstr ""
+"Spectra Pro'nun tüm özelliklerini kullanabilmeniz için öncelikle Spectra "
+"eklentisini aktifleştirmeniz gerekmektedir."
+
+#: plugin-loader.php:208
+msgid "Activate Now"
+msgstr "Şimdi Etkinleştir"
+
+#: plugin-loader.php:216
+msgid "Install and Activate the Spectra Plugin"
+msgstr "Spectra Eklentisini Yükleyin ve Etkinleştirin"
+
+#: plugin-loader.php:217
+msgid ""
+"Before you can use all the features of Spectra Pro, you need to install and "
+"activate the Spectra plugin first."
+msgstr ""
+"Spectra Pro'nun tüm özelliklerini kullanabilmeniz için öncelikle Spectra "
+"eklentisini kurmanız ve etkinleştirmeniz gerekmektedir."
+
+#: plugin-loader.php:218
+msgid "Install Spectra"
+msgstr "Spectra'yı yükleyin"
+
+#: plugin-loader.php:241
+msgid ""
+"Spectra Pro is not working because you are using an old version of Spectra."
+msgstr ""
+"Spectra Pro çalışmıyor çünkü Spectra'nın eski bir sürümünü kullanıyorsunuz."
+
+#: plugin-loader.php:242
+msgid "Update Spectra Now"
+msgstr "Spectra'yı Şimdi Güncelle"
+
+#: blocks-config/spectra-pro-controls/proPreviewImage.js:3 dist/blocks.js:6
+msgid "Please add a preview image."
+msgstr "Lütfen önizleme görseli ekleyin."
+
+#: dist/blocks-placeholder.js:12 dist/blocks.js:8 dist/blocks.js:15 
+#: dist/blocks.js:19
+msgid "Pagination"
+msgstr "Sayfalandırma"
+
+#. translators: abbreviation for units
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "Preset 1"
+msgstr "Ön ayar 1"
+
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "Preset 2"
+msgstr "Ön ayar 2"
+
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "Preset 3"
+msgstr "Ön ayar 3"
+
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "Preset 4"
+msgstr "Ön ayar 4"
+
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "Preset 5"
+msgstr "Ön ayar 5"
+
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "Preset 6"
+msgstr "Ön ayar 6"
+
+#: dist/blocks.js:6
+msgid "Username Placeholder"
+msgstr "Kullanıcı Adı Yer Tutucusu"
+
+#: dist/blocks.js:6
+msgid "Enter username placeholder"
+msgstr "Kullanıcı adı yer tutucusunu girin"
+
+#: dist/blocks.js:6
+msgid "Password Placeholder"
+msgstr "Şifre Yer Tutucu"
+
+#: dist/blocks.js:6
+msgid "Enter password placeholder"
+msgstr "Şifre yer tutucusunu girin"
+
+#: dist/blocks.js:6
+msgid "Forgot Password Label"
+msgstr "Şifremi Unuttum Etiketi"
+
+#: dist/blocks.js:6
+msgid "Enter forgot password label"
+msgstr "Şifremi unuttum etiketini girin"
+
+#: dist/blocks.js:6
+msgid "Hide Icon"
+msgstr "Simgeyi Gizle"
+
+#: dist/blocks.js:6
+msgid "Show Register Information"
+msgstr "Kayıt Bilgilerini Göster"
+
+#: dist/blocks.js:6
+msgid "Register Link"
+msgstr "Kayıt Bağlantısı"
+
+#: dist/blocks.js:6
+msgid "Overall Alignment"
+msgstr "Genel Hizalama"
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:15
+msgid "Left"
+msgstr "Sol"
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:15
+msgid "Center"
+msgstr "Orta"
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:15
+msgid "Right"
+msgstr "Sağ"
+
+#: dist/blocks.js:6
+msgid "Success/Error Message"
+msgstr "Başarı/Hata Mesajı"
+
+#: dist/blocks.js:6
+msgid "View Success Message"
+msgstr "Başarı Mesajını Görüntüle"
+
+#: dist/blocks.js:6
+msgid "View Error Message"
+msgstr "Hata Mesajını Görüntüle"
+
+#: dist/blocks.js:6
+msgid "Redirects"
+msgstr "Yönlendirmeler"
+
+#: dist/blocks.js:6
+msgid "Logged in Message"
+msgstr "Giriş Yapıldı Mesajı"
+
+#: dist/blocks.js:6
+msgid ""
+"The \"Logged In Message\" will be shown instead of this block on the "
+"frontend when the user visiting this page is already Logged In."
+msgstr ""
+"Bu sayfayı ziyaret eden kullanıcı zaten Giriş Yapmışsa, ön yüzde bu blok "
+"yerine \"Giriş Yapıldı Mesajı\" gösterilecektir."
+
+#: dist/blocks.js:6
+msgid "Redirect After Login"
+msgstr "Girişten Sonra Yönlendir"
+
+#: dist/blocks.js:6 dist/blocks.js:14
+msgid "Enter URL"
+msgstr "URL Girin"
+
+#: dist/blocks.js:6
+msgid "Default Redirect URL is homepage"
+msgstr "Varsayılan Yönlendirme URL'si ana sayfadır"
+
+#: dist/blocks.js:6
+msgid "Redirect After Logout"
+msgstr "Çıkıştan Sonra Yönlendir"
+
+#: dist/blocks.js:6
+msgid "Form Controls"
+msgstr "Form Kontrolleri"
+
+#: dist/blocks.js:6
+msgid "Form Width"
+msgstr "Form Genişliği"
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:15
+msgid "Pixel"
+msgstr "Piksel"
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:15
+msgid "%"
+msgstr "%"
+
+#: dist/blocks.js:6 dist/blocks.js:15
+msgid "em"
+msgstr "em"
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:15
+msgid "Padding"
+msgstr "Dolgu"
+
+#: dist/blocks.js:6 dist/blocks.js:15
+msgid "Row Gap"
+msgstr "Satır Boşluğu"
+
+#: dist/blocks.js:6
+msgid "Background"
+msgstr "Arka Plan"
+
+#: dist/blocks.js:6
+msgid "Field Labels"
+msgstr "Alan Etiketleri"
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:15
+msgid "Typography"
+msgstr "Tipografi"
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:14
+msgid "Normal"
+msgstr "Normal"
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:14
+msgid "Hover"
+msgstr "Üzerine Gelme"
+
+#: dist/blocks.js:6 dist/blocks.js:19
+msgid "Text"
+msgstr "Metin"
+
+#: dist/blocks.js:6 dist/blocks.js:15
+msgid "Margin"
+msgstr "Marj"
+
+#: dist/blocks.js:6 dist/blocks.js:19
+msgid "Link"
+msgstr "Bağlantı"
+
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "Color"
+msgstr "Renk"
+
+#: dist/blocks.js:6
+msgid "Input Fields"
+msgstr "Girdi Alanları"
+
+#: dist/blocks.js:6
+msgid "Active"
+msgstr "Etkin"
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:15
+msgid "Placeholder"
+msgstr "Yer Tutucu"
+
+#: dist/blocks.js:6
+msgid "Input Typography"
+msgstr "Girdi Tipografisi"
+
+#: dist/blocks.js:6
+msgid "Input Padding"
+msgstr "Girdi Dolgusu"
+
+#: dist/blocks.js:6
+msgid "Checkbox Size"
+msgstr "Onay Kutusu Boyutu"
+
+#: dist/blocks.js:6
+msgid "Checkbox Background"
+msgstr "Onay Kutusu Arka Planı"
+
+#: dist/blocks.js:6
+msgid "Check Color"
+msgstr "Tik Rengi"
+
+#: dist/blocks.js:6
+msgid "Checkbox Border Width"
+msgstr "Onay Kutusu Kenarlık Genişliği"
+
+#: dist/blocks.js:6
+msgid "Checkbox Border Radius"
+msgstr "Onay Kutusu Kenarlık Yuvarlaklığı"
+
+#: dist/blocks.js:6
+msgid "Checkbox Border Color"
+msgstr "Onay Kutusu Kenarlık Rengi"
+
+#: dist/blocks.js:6
+msgid "Enable Checkbox Glow"
+msgstr "Onay Kutusu Parıltısını Etkinleştir"
+
+#: dist/blocks.js:6
+msgid "Checkbox Glow Color"
+msgstr "Onay Kutusu Parlama Rengi"
+
+#: dist/blocks.js:6
+msgid "Login Button"
+msgstr "Giriş Butonu"
+
+#: dist/blocks.js:6
+msgid "Button Icon"
+msgstr "Buton Simgesi"
+
+#: dist/blocks.js:6
+msgid "Icon Position"
+msgstr "Simge Konumu"
+
+#: dist/blocks.js:6
+msgid "Before Text"
+msgstr "Metinden Önce"
+
+#: dist/blocks.js:6
+msgid "After Text"
+msgstr "Metinden Sonra"
+
+#: dist/blocks.js:6
+msgid "Icon Spacing"
+msgstr "Simge Aralığı"
+
+#: dist/blocks.js:6 dist/blocks.js:15
+msgid "EM"
+msgstr "EM"
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:15
+msgid "Alignment"
+msgstr "Hizalama"
+
+#: dist/blocks.js:6 dist/blocks.js:15
+msgid "Full"
+msgstr "Tam"
+
+#: dist/blocks.js:6
+msgid "Size"
+msgstr "Boyut"
+
+#: dist/blocks.js:6 dist/blocks.js:15 dist/blocks.js:17
+msgid "Default"
+msgstr "Varsayılan"
+
+#: dist/blocks.js:6
+msgid "Small"
+msgstr "Küçük"
+
+#: dist/blocks.js:6 dist/blocks.js:15
+msgid "Medium"
+msgstr "Orta"
+
+#: dist/blocks.js:6 dist/blocks.js:15
+msgid "Large"
+msgstr "Büyük"
+
+#: dist/blocks.js:6
+msgid "Extra Large"
+msgstr "Ekstra Büyük"
+
+#: dist/blocks.js:6
+msgid "Success Border Color"
+msgstr "Başarı Kenarlık Rengi"
+
+#: dist/blocks.js:6
+msgid "Success Background"
+msgstr "Başarı Arka Planı"
+
+#: dist/blocks.js:6
+msgid "Success Text"
+msgstr "Başarı Metni"
+
+#: dist/blocks.js:6
+msgid "Error Border Color"
+msgstr "Hata Kenarlık Rengi"
+
+#: dist/blocks.js:6
+msgid "Error Background"
+msgstr "Hata Arka Planı"
+
+#: dist/blocks.js:6
+msgid "Error Text"
+msgstr "Hata Metni"
+
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "Box Shadow"
+msgstr "Kutu Gölgesi"
+
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "Horizontal"
+msgstr "Yatay"
+
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "Vertical"
+msgstr "Dikey"
+
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "Blur"
+msgstr "Bulanıklık"
+
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "Spread"
+msgstr "Yayma"
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:15
+msgid "Position"
+msgstr "Konum"
+
+#: dist/blocks.js:6
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: dist/blocks.js:6
+msgid ""
+"P.S. Note that If you are using two forms on the same page with the "
+"different reCAPTCHA versions (V2 checkbox and V3), it will create conflicts "
+"between the versions. Kindly avoid using different versions on same page. "
+msgstr ""
+"Not: Aynı sayfada farklı reCAPTCHA sürümleriyle (V2 onay kutusu ve V3) iki "
+"form kullanıyorsanız, sürümler arasında çakışmalar oluşacağını unutmayın. "
+"Lütfen aynı sayfada farklı sürümler kullanmaktan kaçının."
+
+#: dist/blocks.js:6
+msgid "Enable reCAPTCHA"
+msgstr "reCAPTCHA'yı Etkinleştir"
+
+#: dist/blocks.js:6
+msgid "Please configure the Google reCAPTCHA Site & Secret key from"
+msgstr "Lütfen Google reCAPTCHA Site ve Gizli anahtarını şuradan yapılandırın:"
+
+#: dist/blocks.js:6
+msgid "Select Version"
+msgstr "Sürüm Seçin"
+
+#: dist/blocks.js:6
+msgid "V2"
+msgstr "V2"
+
+#: dist/blocks.js:6
+msgid "V3"
+msgstr "V3"
+
+#: dist/blocks.js:6
+msgid "Input Fields Icon"
+msgstr "Girdi Alanları Simgesi"
+
+#: dist/blocks.js:6
+msgid "Icon Size"
+msgstr "Simge Boyutu"
+
+#: dist/blocks.js:6
+msgid "Icon Color"
+msgstr "Simge Rengi"
+
+#: dist/blocks.js:6 dist/blocks.js:15
+msgid "Border Width"
+msgstr "Kenarlık Genişliği"
+
+#: dist/blocks.js:6
+msgid "Border Color"
+msgstr "Kenarlık Rengi"
+
+#: dist/blocks.js:6
+msgid "Eye Icon"
+msgstr "Göz Simgesi"
+
+#: dist/blocks.js:6
+msgid "Password Eye Color"
+msgstr "Şifre Gözü Rengi"
+
+#: dist/blocks.js:6
+msgid "Register Information"
+msgstr "Kayıt Bilgisi"
+
+#: dist/blocks.js:6
+msgid "This is an example success message."
+msgstr "Bu bir örnek başarı mesajıdır."
+
+#: dist/blocks.js:6
+msgid "Error"
+msgstr "Hata"
+
+#: dist/blocks.js:6
+msgid ": This is an example error message."
+msgstr ": Bu bir örnek hata mesajıdır."
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:19
+msgid "Username"
+msgstr "Kullanıcı Adı"
+
+#: dist/blocks.js:6
+msgid "Remember Me"
+msgstr "Beni Hatırla"
+
+#: dist/blocks.js:6
+msgid "Login"
+msgstr "Giriş"
+
+#: dist/blocks.js:6
+msgid "Do not have an account?"
+msgstr "Hesabınız yok mu?"
+
+#: dist/blocks.js:6 dist/blocks.js:8
+msgid "login"
+msgstr "giriş"
+
+#: dist/blocks.js:6
+msgid "This block lets you add Login functionality."
+msgstr "Bu blok Giriş işlevini eklemenizi sağlar."
+
+#: dist/blocks.js:6
+msgid "admin login"
+msgstr "yönetici girişi"
+
+#: dist/blocks.js:6 dist/blocks.js:14 dist/blocks.js:15
+msgid "uag"
+msgstr "uag"
+
+#: dist/blocks.js:6
+msgid "frontend login"
+msgstr "ön yüz girişi"
+
+#: dist/blocks.js:6
+msgid "user login"
+msgstr "kullanıcı girişi"
+
+#: dist/blocks.js:6
+msgid "custom login"
+msgstr "özel giriş"
+
+#: dist/blocks.js:6
+msgid "New User Role"
+msgstr "Yeni Kullanıcı Rolü"
+
+#: dist/blocks.js:6
+msgid ""
+"Choosing 'Select' sets the default role for new users, as configured in "
+"WordPress Settings - General - New User Default Role."
+msgstr ""
+"'Seç' seçeneği, WordPress Ayarları - Genel - Yeni Kullanıcı Varsayılan "
+"Rolü'nde yapılandırıldığı gibi yeni kullanıcılar için varsayılan rolü "
+"ayarlar."
+
+#: dist/blocks.js:6
+msgid ""
+"To adjust the \"New User Registration Role\", please contact your site "
+"administrator."
+msgstr ""
+"\"Yeni Kullanıcı Kayıt Rolü\"nü ayarlamak için lütfen site yöneticinizle "
+"iletişime geçin."
+
+#: dist/blocks.js:6
+msgid "Hide Label"
+msgstr "Etiketi Gizle"
+
+#: dist/blocks.js:6
+msgid "Show Login Information"
+msgstr "Giriş Bilgilerini Göster"
+
+#: dist/blocks.js:6
+msgid "Login Link"
+msgstr "Giriş Bağlantısı"
+
+#: dist/blocks.js:6
+msgid "Register Button"
+msgstr "Kayıt Butonu"
+
+#: dist/blocks.js:6
+msgid "Button Size"
+msgstr "Buton Boyutu"
+
+#: dist/blocks.js:6
+msgid "After Registration Actions"
+msgstr "Kayıt Sonrası İşlemler"
+
+#: dist/blocks.js:6 dist/blocks.js:14
+msgid "Redirect"
+msgstr "Yönlendirme"
+
+#: dist/blocks.js:6
+msgid "Auto Login"
+msgstr "Otomatik Giriş"
+
+#: dist/blocks.js:6
+msgid "Send Email"
+msgstr "E-posta Gönder"
+
+#: dist/blocks.js:6 dist/blocks.js:14
+msgid "Redirect URL"
+msgstr "Yönlendirme URL'si"
+
+#: dist/blocks.js:6
+msgid "Email Template"
+msgstr "E-posta Şablonu"
+
+#: dist/blocks.js:6 dist/blocks.js:15 dist/blocks.js:17
+msgid "Custom"
+msgstr "Özel"
+
+#: dist/blocks.js:6
+msgid "Customize Email Template"
+msgstr "E-posta Şablonunu Özelleştir"
+
+#: dist/blocks.js:6
+msgid "Subject"
+msgstr "Konu"
+
+#: dist/blocks.js:6
+msgid "Message"
+msgstr "Mesaj"
+
+#: dist/blocks.js:6
+msgid "HTML Supported"
+msgstr "HTML Destekleniyor"
+
+#: dist/blocks.js:6
+msgid "Note:"
+msgstr "Not:"
+
+#: dist/blocks.js:6
+msgid ""
+"If you wish to send System Generated Password in the email content, use "
+"shortcode -"
+msgstr ""
+"E-posta içeriğinde Sistem Tarafından Oluşturulan Şifreyi göndermek "
+"istiyorsanız, kısa kodu kullanın -"
+
+#: dist/blocks.js:6
+msgid "Send As"
+msgstr "Gönder"
+
+#: dist/blocks.js:6
+msgid "HTML"
+msgstr "HTML"
+
+#: dist/blocks.js:6
+msgid "Plain"
+msgstr "Düz"
+
+#: dist/blocks.js:6 dist/blocks.js:23
+msgid "Make sure to update your post for changes to take effect."
+msgstr ""
+"Değişikliklerin etkili olması için gönderinizi güncellediğinizden emin olun."
+
+#: dist/blocks.js:6 dist/blocks.js:23
+msgid "Return To Post"
+msgstr "Gönderiye Dön"
+
+#: dist/blocks.js:6
+msgid "Validation Messages"
+msgstr "Doğrulama Mesajları"
+
+#: dist/blocks.js:6
+msgid "Invalid Email"
+msgstr "Geçersiz E-posta"
+
+#: dist/blocks.js:6
+msgid "Email is missing"
+msgstr "E-posta eksik"
+
+#: dist/blocks.js:6
+msgid "Already Used Email"
+msgstr "Zaten Kullanılmış E-posta"
+
+#: dist/blocks.js:6
+msgid "Invalid Username"
+msgstr "Geçersiz Kullanıcı Adı"
+
+#: dist/blocks.js:6
+msgid "Username already in use"
+msgstr "Kullanıcı adı zaten kullanımda"
+
+#: dist/blocks.js:6
+msgid "Invalid Password"
+msgstr "Geçersiz şifre"
+
+#: dist/blocks.js:6
+msgid "Invalid Password Confirmed"
+msgstr "Geçersiz Şifre Onaylandı"
+
+#: dist/blocks.js:6
+msgid "Terms & Condition Error"
+msgstr "Şartlar ve Koşullar Hatası"
+
+#: dist/blocks.js:6
+msgid "Other Errors"
+msgstr "Diğer Hatalar"
+
+#: dist/blocks.js:6
+msgid "Successful Registration"
+msgstr "Başarılı Kayıt"
+
+#: dist/blocks.js:6
+msgid "View Field Error Message"
+msgstr "Alan Hata Mesajını Görüntüle"
+
+#: dist/blocks.js:6
+msgid "Enable reCAPTCHA "
+msgstr "reCAPTCHA'yı Etkinleştir "
+
+#: dist/blocks.js:6
+msgid "here"
+msgstr "burada"
+
+#: dist/blocks.js:6
+msgid "Label Bottom Margin"
+msgstr "Etiket Alt Marjı"
+
+#: dist/blocks.js:6
+msgid "Login Information"
+msgstr "Giriş Bilgisi"
+
+#: dist/blocks.js:6
+msgid "Link Text"
+msgstr "Bağlantı Metni"
+
+#: dist/blocks.js:6
+msgid "Field Error Text"
+msgstr "Alan Hata Metni"
+
+#: dist/blocks.js:6
+msgid "Register New Account"
+msgstr "Yeni Hesap Oluştur"
+
+#: dist/blocks.js:6 dist/blocks.js:8 dist/blocks.js:19
+msgid "Email"
+msgstr "E-Posta"
+
+#: dist/blocks.js:6
+msgid "This message will appear when everything worked fine."
+msgstr "Bu mesaj her şey yolunda gittiğinde görünecektir."
+
+#: dist/blocks.js:6
+msgid "This message will appear when something wrong is happening."
+msgstr "Bu mesaj, bir şeyler ters gittiği zaman görünecektir."
+
+#. translators: %1$s: anchor tag start, %2$s: anchor tag end.
+#: dist/blocks.js:8
+msgid ""
+"To use Registration Form on your site, please enable the \"%1$sAnyone Can "
+"Register%2$s\" setting from Dashboard -> Settings -> General -> Membership."
+msgstr ""
+"Kayıt Formunu sitenizde kullanabilmeniz için lütfen Kontrol Paneli -> "
+"Ayarlar -> Genel -> Üyelik bölümünden \"%1$sHerkes Kayıt Olabilir%2$s\" "
+"ayarını aktif hale getirin."
+
+#: dist/blocks.js:8
+msgid "Register"
+msgstr "Kayıt"
+
+#: dist/blocks.js:8
+msgid "Already have an account?"
+msgstr "Zaten bir hesabınız var mı?"
+
+#: dist/blocks.js:8
+msgid "This block lets you add Registration functionality."
+msgstr "Bu blok Kayıt işlevini eklemenizi sağlar."
+
+#: dist/blocks.js:8
+msgid "register"
+msgstr "kayıt"
+
+#: dist/blocks.js:8
+msgid "admin register"
+msgstr "yönetici kaydı"
+
+#: dist/blocks.js:8 dist/blocks.js:14
+msgid "spectra"
+msgstr "spectra"
+
+#: dist/blocks.js:8
+msgid "frontend register"
+msgstr "ön yüz kaydı"
+
+#: dist/blocks.js:8
+msgid "user register"
+msgstr "kullanıcı kaydı"
+
+#: dist/blocks.js:8
+msgid "custom register"
+msgstr "özel kayıt"
+
+#: dist/blocks.js:8
+msgid "Icon"
+msgstr "Simge"
+
+#: dist/blocks.js:8
+msgid "Required"
+msgstr "Gerekli"
+
+#: dist/blocks.js:8 dist/blocks.js:19
+msgid "Name"
+msgstr "Ad"
+
+#: dist/blocks.js:8
+msgid "This is an example error message."
+msgstr "Bu bir örnek hata mesajıdır."
+
+#: dist/blocks.js:8
+msgid "This block helps to add First Name field."
+msgstr "Bu blok Ad alanının eklenmesine yardımcı olur."
+
+#: dist/blocks.js:8
+msgid "This block helps to add Last Name field."
+msgstr "Bu blok Soyad alanının eklenmesine yardımcı olur."
+
+#: dist/blocks.js:8
+msgid "This block helps to add Email field."
+msgstr "Bu blok E-posta alanının eklenmesine yardımcı olur."
+
+#: dist/blocks.js:8
+msgid "This block helps to add Password field."
+msgstr "Bu blok Şifre alanının eklenmesine yardımcı olur."
+
+#: dist/blocks.js:8
+msgid "Re-Enter Password"
+msgstr "Şifrenizi Tekrar Girin"
+
+#: dist/blocks.js:8
+msgid "This block helps to add Re-Enter Password field."
+msgstr "Bu blok Şifreyi Tekrar Girin alanının eklenmesine yardımcı olur."
+
+#: dist/blocks.js:8
+msgid "This block helps to add Username field."
+msgstr "Bu blok Kullanıcı Adı alanının eklenmesine yardımcı olur."
+
+#: dist/blocks.js:8
+msgid "Terms and Conditions notice."
+msgstr "Şartlar ve Koşullar bildirimi."
+
+#: dist/blocks.js:8
+msgid "Terms & Condition"
+msgstr "Şartlar ve Koşullar"
+
+#: dist/blocks.js:8
+msgid "This block helps to add Terms & Condtions field."
+msgstr "Bu blok Şartlar ve Koşullar alanının eklenmesine yardımcı olur."
+
+#: dist/blocks.js:8
+msgid "Background Color"
+msgstr "Arka Plan Rengi"
+
+#: dist/blocks.js:8
+msgid "Overlay Color"
+msgstr "Kaplama Rengi"
+
+#: dist/blocks.js:8
+msgid "Bar Color"
+msgstr "Çubuk Rengi"
+
+#: dist/blocks.js:8
+msgid "Grayscale Amount"
+msgstr "Gri tonlama Miktarı"
+
+#: dist/blocks.js:8
+msgid "Sepia Amount"
+msgstr "Sepya Miktarı"
+
+#: dist/blocks.js:8
+msgid "Effect Amount"
+msgstr "Efekt Miktarı"
+
+#: dist/blocks.js:8
+msgid "Carousel"
+msgstr "Karusel"
+
+#: dist/blocks.js:8
+msgid "Text Color"
+msgstr "Metin Rengi"
+
+#: dist/blocks.js:8
+msgid "Blur Amount"
+msgstr "Bulanıklık Miktarı"
+
+#: dist/blocks.js:8
+msgid "Effect"
+msgstr "Efekt"
+
+#: dist/blocks.js:8 dist/blocks.js:23
+msgid "None"
+msgstr "Hiçbiri"
+
+#: dist/blocks.js:8
+msgid "Grayscale"
+msgstr "Gri tonlama"
+
+#: dist/blocks.js:8
+msgid "Sepia"
+msgstr "Sepya"
+
+#: dist/blocks.js:8
+msgid "Presets"
+msgstr "Ön ayarlar"
+
+#: dist/blocks.js:8 dist/blocks.js:15
+msgid "Layout"
+msgstr "Düzen"
+
+#: dist/blocks.js:8
+msgid "User"
+msgstr "Kullanıcı"
+
+#: dist/blocks.js:8 dist/blocks.js:15 dist/blocks.js:19
+msgid "Type"
+msgstr "Tür"
+
+#: dist/blocks.js:8
+msgid "Grid"
+msgstr "Izgara"
+
+#: dist/blocks.js:8
+msgid "Masonry"
+msgstr "Duvar"
+
+#: dist/blocks.js:8
+msgid ""
+"The masonry layout will appear as a grid in the editor for FSE themes, but "
+"will appear as masonry in the frontend."
+msgstr ""
+"Duvar düzeni, Tam Site Düzenleme (FSE) temaları için düzenleyicide bir "
+"ızgara olarak görünecek, ancak ön yüzde duvar olarak görünecektir."
+
+#: dist/blocks.js:8
+msgid "Columns"
+msgstr "Sütunlar"
+
+#: dist/blocks.js:8
+msgid "Total Posts"
+msgstr "Toplam Gönderiler"
+
+#: dist/blocks.js:8
+msgid "Offset Posts by"
+msgstr "Gönderi Mesafesi"
+
+#: dist/blocks.js:8
+msgid "Open Instagram on Click"
+msgstr "Tıklandığında Instagram'ı açın"
+
+#: dist/blocks.js:8
+msgid "Starting Post"
+msgstr "Başlangıç Gönderisi"
+
+#: dist/blocks.js:8
+msgid "This setting is reflected on the front-end"
+msgstr "Bu ayar ön yüzde yansıtılır"
+
+#: dist/blocks.js:8
+msgid "Transition Speed (ms)"
+msgstr "Geçiş Hızı (ms)"
+
+#: dist/blocks.js:8
+msgid "Crop Images to Squares"
+msgstr "Görüntüleri Karelere Kırp"
+
+#: dist/blocks.js:8
+msgid "Infinite Carousel"
+msgstr "Sonsuz Karusel"
+
+#: dist/blocks.js:8
+msgid "Display Dots"
+msgstr "Noktaları Göster"
+
+#: dist/blocks.js:8
+msgid "Display Arrows"
+msgstr "Okları Göster"
+
+#: dist/blocks.js:8
+msgid "Autoplay"
+msgstr "Otomatik oynatma"
+
+#: dist/blocks.js:8
+msgid "Autoplay Speed (ms)"
+msgstr "Otomatik Oynatma Hızı (ms)"
+
+#: dist/blocks.js:8
+msgid "Pause on Hover"
+msgstr "Üzerine Gelince Duraklat"
+
+#: dist/blocks.js:8
+msgid "Posts Per Page"
+msgstr "Sayfa Başına Gönderiler"
+
+#: dist/blocks.js:8
+msgid "Pagination Type"
+msgstr "Sayfalandırma Türü"
+
+#: dist/blocks.js:8
+msgid "Loader"
+msgstr "Yükleyici"
+
+#: dist/blocks.js:8 dist/blocks.js:15
+msgid "Button"
+msgstr "Buton"
+
+#: dist/blocks.js:8
+msgid "Button Text"
+msgstr "Buton Metni"
+
+#: dist/blocks.js:8
+msgid "Button Alignment"
+msgstr "Buton Hizalama"
+
+#: dist/blocks.js:8 dist/blocks.js:15
+msgid "Caption"
+msgstr "Alt Yazı"
+
+#: dist/blocks.js:8
+msgid "Display Captions"
+msgstr "Alt Yazıları Göster"
+
+#: dist/blocks.js:8
+msgid "Max Length (Characters)"
+msgstr "Maksimum Uzunluk (Karakter)"
+
+#: dist/blocks.js:8
+msgid "Overlay"
+msgstr "Kaplama"
+
+#: dist/blocks.js:8
+msgid "Bar Over Image"
+msgstr "Çubuğu Görselin Üstüne Yerleştir"
+
+#: dist/blocks.js:8
+msgid "Bar Outside Image"
+msgstr "Çubuğu Görselin Dışına Yerleştir"
+
+#: dist/blocks.js:8 dist/blocks.js:23
+msgid "Visibility"
+msgstr "Görünürlük"
+
+#: dist/blocks.js:8
+msgid "Above"
+msgstr "Üstünde"
+
+#: dist/blocks.js:8
+msgid "Below"
+msgstr "Altında"
+
+#: dist/blocks.js:8
+msgid "Gap"
+msgstr "Boşluk"
+
+#: dist/blocks.js:8
+msgid "Em"
+msgstr "Em"
+
+#: dist/blocks.js:8
+msgid "Instagram Post"
+msgstr "Instagram Gönderisi"
+
+#: dist/blocks.js:8
+msgid "Enable Hover Zoom"
+msgstr "Üzerine Gelme Yakınlaştırmasını Etkinleştir"
+
+#: dist/blocks.js:8
+msgid "Zoom Type"
+msgstr "Yakınlaştırma Türü"
+
+#: dist/blocks.js:8
+msgid "Zoom In"
+msgstr "Yakınlaştır"
+
+#: dist/blocks.js:8
+msgid "Zoom Out"
+msgstr "Uzaklaştır"
+
+#: dist/blocks.js:8
+msgid "Enable Blur Overlay"
+msgstr "Bulanıklaştırma Kaplamasını Etkinleştir"
+
+#: dist/blocks.js:8
+msgid "Caption Padding"
+msgstr "Alt Yazı Dolgusu"
+
+#: dist/blocks.js:8
+msgid "Hover Colors"
+msgstr "Üzerine Gelme Renkleri"
+
+#: dist/blocks.js:8
+msgid "Arrows & Dots"
+msgstr "Oklar & Noktalar"
+
+#: dist/blocks.js:8
+msgid "Top Margin"
+msgstr "Üst Marj"
+
+#: dist/blocks.js:8
+msgid "Arrow Position"
+msgstr "Ok Konumu"
+
+#: dist/blocks.js:8
+msgid "Arrow Size"
+msgstr "Ok Boyutu"
+
+#: dist/blocks.js:8
+msgid "Dot Position"
+msgstr "Nokta Konumu"
+
+#: dist/blocks.js:8
+msgid "Loader Size"
+msgstr "Yükleyici  Boyutu"
+
+#: dist/blocks.js:8
+msgid "Button Padding"
+msgstr "Buton Dolgusu"
+
+#: dist/blocks.js:8 dist/blocks.js:15
+msgid "Spacing"
+msgstr "Aralık"
+
+#: dist/blocks.js:8
+msgid "Gap Between Posts"
+msgstr "Gönderiler Arasındaki Boşluk"
+
+#: dist/blocks.js:8
+msgid "Select a user and you're all good to go!"
+msgstr "Bir kullanıcı seçin ve artık hazırsınız!"
+
+#: dist/blocks.js:8
+msgid "Select an Instagram User:"
+msgstr "Bir Instagram Kullanıcısı Seçin:"
+
+#. translators: %1$s: anchor tag start, %2$s: anchor tag end.
+#: dist/blocks.js:10
+msgid "Link an Instagram account from the %1$sSpectra Dashboard%2$s!"
+msgstr "%1$sSpectra Kontrol Paneli%2$s'nden bir Instagram hesabı bağlayın!"
+
+#: dist/blocks.js:10
+msgid "No posts to display…"
+msgstr "Gösterilecek gönderi yok…"
+
+#. translators: %1$s: Instagram username.
+#: dist/blocks.js:12
+msgid "@%1$s has been unlinked or disabled for Security Reasons."
+msgstr ""
+"Güvenlik Nedeniyle @%1$s bağlantısı kaldırıldı veya devre dışı bırakıldı."
+
+#. translators: %1$s: anchor tag start, %2$s: anchor tag end.
+#: dist/blocks.js:14
+msgid "Please relink the account from the %1$sSpectra Dashboard%2$s."
+msgstr ""
+"Lütfen hesabınızı %1$sSpectra Kontrol Paneli%2$s üzerinden yeniden bağlayın."
+
+#: dist/blocks.js:14
+msgid "instagram"
+msgstr "instagram"
+
+#: dist/blocks.js:14
+msgid "feed"
+msgstr "akış"
+
+#: dist/blocks.js:14
+msgid "ig"
+msgstr "ig"
+
+#: dist/blocks.js:14
+msgid "social"
+msgstr "sosyal"
+
+#: dist/blocks.js:14
+msgid "media"
+msgstr "medya"
+
+#: dist/blocks.js:14
+msgid ""
+"Create a unique Campaign ID to sync multiple countdown timers across your "
+"website."
+msgstr ""
+"Web sitenizdeki birden fazla geri sayım sayacını senkronize etmek için "
+"benzersiz bir Kampanya Kimliği oluşturun."
+
+#: dist/blocks.js:14
+msgid "IMPORTANT: All synced countdown timers must have the same end time. "
+msgstr ""
+"ÖNEMLİ: Senkronize edilen tüm geri sayım sayaçlarının bitiş saati aynı "
+"olmalıdır."
+
+#: dist/blocks.js:14
+msgid "Timer Type"
+msgstr "Zamanlayıcı Türü"
+
+#: dist/blocks.js:14
+msgid "Choose the type of countdown timer to display."
+msgstr "Görüntülenecek geri sayım sayacının türünü seçin."
+
+#: dist/blocks.js:14 dist/blocks.js:15
+msgid "Date"
+msgstr "Tarih"
+
+#: dist/blocks.js:14
+msgid "Evergreen"
+msgstr "Sürekli"
+
+#: dist/blocks.js:14
+msgid "Days"
+msgstr "Gün"
+
+#: dist/blocks.js:14
+msgid "Hours"
+msgstr "Saat"
+
+#: dist/blocks.js:14
+msgid "Minutes"
+msgstr "Dakika"
+
+#: dist/blocks.js:14
+msgid "Campaign ID"
+msgstr "Kampanya Kimliği"
+
+#: dist/blocks.js:14
+msgid "Reset after (Days)"
+msgstr "Sonrasında sıfırla (Gün)"
+
+#: dist/blocks.js:14
+msgid "Number of days to wait until the evergreen is reset for visitors"
+msgstr ""
+"Ziyaretçiler için sürekli sıfırlanması için beklenmesi gereken gün sayısı\n"
+"Ziyaretçiler için zamanlayıcının sıfırlanacağı gün sayısı"
+
+#: dist/blocks.js:14
+msgid "Keep"
+msgstr "Tut"
+
+#: dist/blocks.js:14
+msgid "Hide"
+msgstr "Gizle"
+
+#: dist/blocks.js:14
+msgid "Replace"
+msgstr "Değiştir"
+
+#: dist/blocks.js:14
+msgid "Expiry Settings"
+msgstr "Son Kullanma Tarihi Ayarları"
+
+#: dist/blocks.js:14
+msgid "Expiry Action"
+msgstr "Son Kullanma Tarihi Eylemi"
+
+#: dist/blocks.js:14
+msgid "For a better editing experience, expiry options work only on frontend."
+msgstr ""
+"Daha iyi bir düzenleme deneyimi için, son kullanma tarihi seçenekleri "
+"yalnızca ön yüzde çalışır."
+
+#: dist/blocks.js:14
+msgid "By default, this option redirects user to the homepage."
+msgstr "Bu seçenek varsayılan olarak kullanıcıyı ana sayfaya yönlendirir."
+
+#: dist/blocks.js:14
+msgid "Reload Required"
+msgstr "Yeniden Yükleme Gerekli"
+
+#: dist/blocks.js:14
+msgid ""
+"Recommended: Expired content is only rendered after reload when countdown "
+"expires."
+msgstr ""
+"Önerilir: Süresi dolan içerikler yalnızca geri sayım sona erdiğinde yeniden "
+"yüklendikten sonra oluşturulur."
+
+#: dist/blocks.js:14
+msgid "Expired content is rendered but visibly hidden until countdown expires."
+msgstr ""
+"Süresi dolan içerik işlenir ancak geri sayım sona erene kadar görünür "
+"şekilde gizlenir."
+
+#: dist/blocks.js:14
+msgid "Automatically Reload"
+msgstr "Otomatik Yeniden Yükle"
+
+#: dist/blocks.js:14
+msgid "Live"
+msgstr "Canlı"
+
+#: dist/blocks.js:14
+msgid "Expired"
+msgstr "Süresi Dolmuş"
+
+#: dist/blocks.js:14 dist/blocks.js:15
+msgid "Content"
+msgstr "İçerik"
+
+#: dist/blocks.js:14
+msgid "Navigation Slug"
+msgstr "Navigasyon Kısa Adı"
+
+#: dist/blocks.js:14
+msgid "Enable Hash Navigation"
+msgstr "Hash Navigasyonunu Etkinleştir"
+
+#: dist/blocks.js:14
+msgid ""
+"Directly navigate to a slide from the URL with the slide navigation slug. "
+"Set the slide slug by clicking on the child slide blocks."
+msgstr ""
+"Slayt gezintisi kısa adı ile URL'den doğrudan bir slayda gidin. Alt slayt "
+"bloklarına tıklayarak slayt kısa adını ayarlayın."
+
+#: dist/blocks.js:14
+msgid "Custom Navigation"
+msgstr "Özel Navigasyon"
+
+#: dist/blocks.js:14
+msgid ""
+"You can use the above classes to create your custom links to navigate the "
+"slider."
+msgstr ""
+"Yukarıdaki sınıfları kullanarak kaydırıcıda gezinmek için özel bağlantılar "
+"oluşturabilirsiniz."
+
+#: dist/blocks.js:14
+msgid "Slides Per View"
+msgstr "Görünüm Başına Slaytlar"
+
+#: dist/blocks.js:14
+msgid "Gap Between Slides"
+msgstr "Slaytlar Arasındaki Boşluk"
+
+#: dist/blocks.js:14
+msgid "Linked Caption Color"
+msgstr "Bağlantılı Alt Yazı Rengi"
+
+#: dist/blocks.js:14
+msgid "Lightbox Caption URL"
+msgstr "Lightbox Alt Yazı URL'si"
+
+#: dist/blocks.js:14
+msgid "Custom URL"
+msgstr "Özel URL"
+
+#: dist/blocks.js:14
+msgid "Open Link in New Tab"
+msgstr "Bağlantıyı Yeni Sekmede Aç"
+
+#: dist/blocks.js:14 dist/blocks.js:15
+msgid "Previous"
+msgstr "Önceki"
+
+#: dist/blocks.js:14 dist/blocks.js:15
+msgid "Next"
+msgstr "Yeni"
+
+#. Translators: Modal ID.
+#: dist/blocks.js:15
+msgid "Modal Placeholder - ID %1$s"
+msgstr "Modal Yer Tutucu - ID %1$s"
+
+#: dist/blocks.js:15
+msgid ""
+"Click here to edit modal settings. This text will not be visible in the "
+"frontend."
+msgstr ""
+"Modal ayarlarını düzenlemek için buraya tıklayın. Bu metin ön yüzde "
+"görünmeyecektir."
+
+#: dist/blocks.js:15
+msgid "Top Left"
+msgstr "Üst Sol"
+
+#: dist/blocks.js:15
+msgid "Top Right"
+msgstr "Üst Sağ"
+
+#: dist/blocks.js:15
+msgid "Window - Top Left"
+msgstr "Pencere - Üst Sol"
+
+#: dist/blocks.js:15
+msgid "Window - Top Right"
+msgstr "Pencere - Üst Sağ"
+
+#: dist/blocks.js:15
+msgid "Modal Content"
+msgstr "Modal İçeriği"
+
+#: dist/blocks.js:15
+msgid "Open Modal as a"
+msgstr "Modal'ı şu şekilde aç:"
+
+#: dist/blocks.js:15
+msgid "Popup"
+msgstr "Popup"
+
+#: dist/blocks.js:15
+msgid "Left Off-Canvas"
+msgstr "Sol Yan Panel"
+
+#: dist/blocks.js:15
+msgid "Right Off-Canvas"
+msgstr "Sağ Yan Panel"
+
+#: dist/blocks.js:15
+msgid "Appear Effect"
+msgstr "Ortaya Çıkma Efekti"
+
+#: dist/blocks.js:15
+msgid "Default Effect"
+msgstr "Varsayılan Efekt"
+
+#: dist/blocks.js:15
+msgid "Scale"
+msgstr "Ölçek"
+
+#: dist/blocks.js:15
+msgid "Slide In"
+msgstr "Kaydırarak Gir"
+
+#: dist/blocks.js:15
+msgid "Centered"
+msgstr "Ortalı"
+
+#: dist/blocks.js:15
+msgid "Bottom Left"
+msgstr "Alt Sol"
+
+#: dist/blocks.js:15
+msgid "Bottom Right"
+msgstr "Alt Sağ"
+
+#: dist/blocks.js:15
+msgid "Horizontal Offset"
+msgstr "Yatay Ofset"
+
+#: dist/blocks.js:15
+msgid "Vertical Offset"
+msgstr "Dikey Mesafe"
+
+#: dist/blocks.js:15
+msgid "Icon Background Color"
+msgstr "Simge Arka Plan Rengi"
+
+#: dist/blocks.js:15
+msgid "Icon Border Color"
+msgstr "Simge Kenarlık Rengi"
+
+#: dist/blocks.js:15
+msgid "View"
+msgstr "Görüntüle"
+
+#: dist/blocks.js:15
+msgid "Stacked"
+msgstr "Yığılı"
+
+#: dist/blocks.js:15
+msgid "Framed"
+msgstr "Çerçeveli"
+
+#: dist/blocks.js:15
+msgid "Shape"
+msgstr "Şekil"
+
+#: dist/blocks.js:15
+msgid "Circle"
+msgstr "Daire"
+
+#: dist/blocks.js:15
+msgid "Square"
+msgstr "Kare"
+
+#: dist/blocks.js:15
+msgid ""
+"Trigger options are not available for custom triggers (Custom Class, Custom "
+"ID and Automatic)."
+msgstr ""
+"Özel tetikleyiciler (Özel Sınıf, Özel Kimlik ve Otomatik) için tetikleyici "
+"seçenekleri mevcut değildir."
+
+#: dist/blocks.js:15
+msgid "Custom Class"
+msgstr "Özel Sınıf"
+
+#: dist/blocks.js:15
+msgid ""
+"Add your custom class without the dot. e.g: my-class. To edit the Modal "
+"content, please add this class to the desired trigger element and initialize "
+"modal from it."
+msgstr ""
+"Özel sınıfınızı nokta olmadan ekleyin. (Örn: my-class). Modal içeriğini "
+"düzenlemek için bu sınıfı tetikleyici olarak kullanmak istediğiniz öğeye "
+"ekleyin ve modalı bu öğeden başlatın."
+
+#: dist/blocks.js:15
+msgid "Custom ID"
+msgstr "Özel Kimlik"
+
+#: dist/blocks.js:15
+msgid ""
+"Add your custom id without the Pound key. e.g: my-id. This trigger works in "
+"the front-end only - add this id to the desired trigger element."
+msgstr ""
+"Özel kimliğinizi \"#\" sembolü olmadan ekleyin. (Örn: my-id). Bu tetikleyici "
+"yalnızca ön uçta çalışır – bu kimliği, tetikleyici olarak kullanmak "
+"istediğiniz öğeye ekleyin."
+
+#: dist/blocks.js:15
+msgid "Display After Seconds"
+msgstr "Gösterme Gecikmesi (Saniye)"
+
+#: dist/blocks.js:15
+msgid "Number of Seconds"
+msgstr "Saniye Sayısı"
+
+#: dist/blocks.js:15
+msgid "Enable Cookies"
+msgstr "Çerezleri Etkinleştir"
+
+#: dist/blocks.js:15
+msgid "Set Cookies on"
+msgstr "Çerezleri Ayarla"
+
+#: dist/blocks.js:15
+msgid ""
+"Choose an action on which you want to set cookies to hide the popup for "
+"number of days."
+msgstr ""
+"Açılır pencereyi belirli bir gün süresince gizlemek için çerezleri ayarlamak "
+"istediğiniz bir eylem seçin."
+
+#: dist/blocks.js:15
+msgid "Close Action"
+msgstr "Eylemi Kapat"
+
+#: dist/blocks.js:15
+msgid "Page Refresh"
+msgstr "Sayfa Yenileme"
+
+#: dist/blocks.js:15
+msgid "Hide for number of days"
+msgstr "Gün sayısı kadar gizle"
+
+#: dist/blocks.js:15
+msgid "No post found!"
+msgstr "Gönderi bulunamadı!"
+
+#: dist/blocks.js:15
+msgid "Posts per page"
+msgstr "Sayfa başına gönderiler"
+
+#: dist/blocks.js:15
+msgid "Posts offset"
+msgstr "Gönderiler mesafesi"
+
+#: dist/blocks.js:15
+msgid "Order"
+msgstr "Sırala"
+
+#: dist/blocks.js:15
+msgid "Ascending"
+msgstr "Artan"
+
+#: dist/blocks.js:15
+msgid "Descending"
+msgstr "Azalan"
+
+#: dist/blocks.js:15
+msgid "Order by"
+msgstr "Sırala"
+
+#: dist/blocks.js:15
+msgid "Title"
+msgstr "Başlık"
+
+#: dist/blocks.js:15 dist/blocks.js:19
+msgid "Author"
+msgstr "Yazar"
+
+#: dist/blocks.js:15
+msgid "Last modified"
+msgstr "Son değiştirilme tarihi"
+
+#: dist/blocks.js:15
+msgid "If Posts Not Found"
+msgstr "Gönderiler Bulunamazsa"
+
+#: dist/blocks.js:15
+msgid "Display Message"
+msgstr "Mesajı Göster"
+
+#: dist/blocks.js:15
+msgid "Post Type"
+msgstr "Gönderi Türü"
+
+#: dist/blocks.js:15
+msgid "Sticky posts"
+msgstr "Yapışkan gönderi"
+
+#: dist/blocks.js:15
+msgid "Include"
+msgstr "Dahil"
+
+#: dist/blocks.js:15
+msgid "Exclude"
+msgstr "Hariç tut"
+
+#: dist/blocks.js:15
+msgid "Only"
+msgstr "Sadece"
+
+#: dist/blocks.js:15
+msgid ""
+"Choose whether to show sticky posts in the loop. Sticky posts will be "
+"visible only on frontend"
+msgstr ""
+"Döngüde yapışkan gönderilerin gösterilip gösterilmeyeceğini seçin. Yapışkan "
+"gönderiler yalnızca ön yüzde görünür olacak"
+
+#: dist/blocks.js:15
+msgid "Add keywords required in posts."
+msgstr "Gönderilerde gerekli anahtar kelimeleri ekleyin."
+
+#: dist/blocks.js:15 dist/blocks.js:19
+msgid "Taxonomy"
+msgstr "Taksonomi"
+
+#: dist/blocks.js:15
+msgid "Posts"
+msgstr "Gönderiler"
+
+#: dist/blocks.js:15
+msgid "Authors"
+msgstr "Yazarlar"
+
+#: dist/blocks.js:15
+msgid "Choose Layout"
+msgstr "Düzen Seçin"
+
+#: dist/blocks.js:15
+msgid "Variation 1"
+msgstr "Varyasyon 1"
+
+#: dist/blocks.js:15
+msgid "1 2 … 6 7 8"
+msgstr "1 2 … 6 7 8"
+
+#: dist/blocks.js:15
+msgid "Variation 2"
+msgstr "Varyasyon 2"
+
+#: dist/blocks.js:15
+msgid "All"
+msgstr "Tüm"
+
+#: dist/blocks.js:15
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: dist/blocks.js:15
+msgid "Variation 3"
+msgstr "Varyasyon 3"
+
+#: dist/blocks.js:15
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: dist/blocks.js:15
+msgid "Variation 4"
+msgstr "Varyasyon 4"
+
+#: dist/blocks.js:15
+msgid "Blog Categories"
+msgstr "Blog Kategorileri"
+
+#: dist/blocks.js:15
+msgid "Reset Filters"
+msgstr "Filtreleri Sıfırla"
+
+#: dist/blocks.js:15
+msgid "Variation 5"
+msgstr "Varyasyon 5"
+
+#: dist/blocks.js:15
+msgid "Sort"
+msgstr "Sıralama"
+
+#: dist/blocks.js:15
+msgid "Variation 6"
+msgstr "Varyasyon 6"
+
+#: dist/blocks.js:15
+msgid "Create from Scratch"
+msgstr "Sıfırdan Oluşturun"
+
+#: dist/blocks.js:15
+msgid "Build a post loop using advanced query parameters."
+msgstr ""
+"Gelişmiş sorgu parametrelerini kullanarak bir gönderi döngüsü oluşturun."
+
+#: dist/blocks.js:15
+msgid "posts"
+msgstr "gönderiler"
+
+#: dist/blocks.js:15
+msgid "query block"
+msgstr "sorgu bloğu"
+
+#: dist/blocks.js:15
+msgid "loop builder"
+msgstr "döngü oluşturucu"
+
+#: dist/blocks.js:15
+msgid "Layout Spacing"
+msgstr "Düzen Aralığı"
+
+#: dist/blocks.js:15
+msgid "For more post-related configuration, select the"
+msgstr "Daha fazla gönderiyle ilgili yapılandırma için şunu seçin:"
+
+#: dist/blocks.js:15
+msgid "parent block."
+msgstr "üst blok."
+
+#: dist/blocks.js:15
+msgid "Number Of Columns"
+msgstr "Sütun Sayısı"
+
+#: dist/blocks.js:15
+msgid "Column Gap"
+msgstr "Sütun Boşluğu"
+
+#: dist/blocks.js:15
+msgid "Percent"
+msgstr "Yüzde"
+
+#: dist/blocks.js:15
+msgid "Rem"
+msgstr "Rem"
+
+#: dist/blocks.js:15
+msgid "Choose variation"
+msgstr "Varyasyonu seçin"
+
+#: dist/blocks.js:15
+msgid "No results found."
+msgstr "Sonuç bulunamadı."
+
+#: dist/blocks.js:15 dist/blocks.js:19
+msgid "Loading…"
+msgstr "Yükleniyor…"
+
+#: dist/blocks.js:15
+msgid "Portrait Layout 1"
+msgstr "Portre Düzeni 1"
+
+#: dist/blocks.js:15
+msgid "Read More"
+msgstr "Devamını Oku"
+
+#: dist/blocks.js:15
+msgid "Portrait Layout 2"
+msgstr "Portre Düzeni 2"
+
+#: dist/blocks.js:15
+msgid "Landscape Layout"
+msgstr "Manzara Düzeni"
+
+#: dist/blocks.js:15
+msgid "Boxed Layout"
+msgstr "Kutulu Düzen"
+
+#: dist/blocks.js:15
+msgid "Loop Builder wrapper block has basic row column settings."
+msgstr ""
+"Döngü Oluşturucu sarmalayıcı bloğu temel satır sütun ayarlarına sahiptir."
+
+#: dist/blocks.js:15
+msgid "loop builder wrapper"
+msgstr "döngü oluşturucu sarmalayıcı"
+
+#: dist/blocks.js:15
+msgid "Width"
+msgstr "Genişlik"
+
+#: dist/blocks.js:15
+msgid "Colors"
+msgstr "Renkler"
+
+#: dist/blocks.js:15
+msgid "Search Text"
+msgstr "Arama Metni"
+
+#: dist/blocks.js:15
+msgid "Above settings will apply to the search text enter by user."
+msgstr "Yukarıdaki ayarlar kullanıcının girdiği arama metnine uygulanacaktır."
+
+#: dist/blocks.js:15
+msgid "Field"
+msgstr "Alan"
+
+#: dist/blocks.js:15
+msgid "Border"
+msgstr "Kenarlık"
+
+#: dist/blocks.js:15
+msgid "Loop Builder - Search filter allows user to search posts in the loop."
+msgstr ""
+"Döngü Oluşturucu - Arama filtresi kullanıcının döngüdeki gönderileri "
+"aramasına olanak tanır."
+
+#: dist/blocks.js:15
+msgid "loop builder search"
+msgstr "döngü oluşturucu arama"
+
+#: dist/blocks.js:15
+msgid "Short By"
+msgstr "Sırala"
+
+#: dist/blocks.js:15
+msgid "Sort Text"
+msgstr "Metni Sırala"
+
+#: dist/blocks.js:15
+msgid "Above settings will apply to the sort text."
+msgstr "Yukarıdaki ayarlar metin sıralama için geçerli olacaktır."
+
+#: dist/blocks.js:15
+msgid "Loop Builder - Sorting filter allows user to sort posts in the loop."
+msgstr ""
+"Döngü Oluşturucu - Sıralama filtresi kullanıcının döngüdeki gönderileri "
+"sıralamasına olanak tanır."
+
+#: dist/blocks.js:15
+msgid "loop builder sorting"
+msgstr "döngü oluşturucu sıralama"
+
+#: dist/blocks.js:15
+msgid "Loop Builder - Reset filter allows user to reset the loop filter."
+msgstr ""
+"Döngü Oluşturucu - Filtreyi sıfırla, kullanıcının döngü filtresini "
+"sıfırlamasına olanak tanır."
+
+#: dist/blocks.js:15
+msgid "loop builder reset"
+msgstr "döngü oluşturucu sıfırlama"
+
+#: dist/blocks.js:15
+msgid "Select Taxonomy"
+msgstr "Taksonomi Seçin"
+
+#: dist/blocks.js:15
+msgid "Product Category"
+msgstr "Ürün Kategorisi"
+
+#: dist/blocks.js:15 dist/blocks.js:19
+msgid "Data Not Found!"
+msgstr "Veri Bulunamadı!"
+
+#: dist/blocks.js:15
+msgid "Category Text"
+msgstr "Kategori Metni"
+
+#: dist/blocks.js:15
+msgid "The above settings will be applied to the text of the categories."
+msgstr "Yukarıdaki ayarlar kategori metinlerine uygulanacaktır."
+
+#: dist/blocks.js:15
+msgid "Gap in Between"
+msgstr "Aradaki Boşluk"
+
+#: dist/blocks.js:15
+msgid "PX"
+msgstr "PX"
+
+#: dist/blocks.js:15
+msgid "VW"
+msgstr "VW"
+
+#: dist/blocks.js:15
+msgid "Query"
+msgstr "Sorgu"
+
+#: dist/blocks.js:15
+msgid "CheckBox"
+msgstr "Onay Kutusu"
+
+#: dist/blocks.js:15
+msgid "Stack"
+msgstr "Yığın"
+
+#: dist/blocks.js:15
+msgid "Inline"
+msgstr "Çizgide"
+
+#: dist/blocks.js:15
+msgid "Show Posts Count"
+msgstr "Gönderi Sayısını Göster"
+
+#: dist/blocks.js:15
+msgid "Show Empty Taxonomy"
+msgstr "Boş Taksonomiyi Göster"
+
+#: dist/blocks.js:15
+msgid "Show Children"
+msgstr "Alt Öğeyi Göster"
+
+#: dist/blocks.js:15
+msgid ""
+"To view child categories (sub-categories) of the selected taxonomy, enable "
+"the \"Show Children\" toggle."
+msgstr ""
+"Seçili taksonominin alt kategorilerini görüntülemek için \"Alt Kategorileri "
+"Göster\" geçiş düğmesini etkinleştirin."
+
+#: dist/blocks.js:15
+msgid "For the styling options please select the Buttons Block."
+msgstr "Stil seçenekleri için lütfen Butonlar Bloğunu seçin."
+
+#: dist/blocks.js:15
+msgid "Placeholder 1"
+msgstr "Yer Tutucu 1"
+
+#: dist/blocks.js:15
+msgid "Placeholder 2"
+msgstr "Yer Tutucu 2"
+
+#: dist/blocks.js:15
+msgid "Placeholder 3"
+msgstr "Yer Tutucu 3"
+
+#: dist/blocks.js:15
+msgid "Checkbox Title"
+msgstr "Onay Kutusu Başlığı"
+
+#: dist/blocks.js:15
+msgid "Option Name 1"
+msgstr "Seçenek Adı 1"
+
+#: dist/blocks.js:15
+msgid "Option Value 1"
+msgstr "Seçenek Değeri 1"
+
+#: dist/blocks.js:15
+msgid "Loop Builder - Pagination block allows user to paginate the loop."
+msgstr ""
+"Döngü Oluşturucu - Sayfalandırma bloğu kullanıcının döngüyü "
+"sayfalandırmasına olanak tanır."
+
+#: dist/blocks.js:15
+msgid "loop builder pagination"
+msgstr "döngü oluşturucu sayfalandırma"
+
+#: dist/blocks.js:15
+msgid "Alt"
+msgstr "Alternatif"
+
+#: dist/blocks.js:15
+msgid "Description"
+msgstr "Açıklama"
+
+#: dist/blocks.js:15
+msgid "File URL"
+msgstr "Dosya URL'si"
+
+#: dist/blocks.js:15
+msgid "Attachment URL"
+msgstr "Dosya Eki URL'si"
+
+#: dist/blocks.js:15
+msgid "Thumbnail"
+msgstr "Küçük Resim"
+
+#: dist/blocks.js:15
+msgid "Medium Large"
+msgstr "Orta Büyük"
+
+#: dist/blocks.js:15
+msgid "Image Size"
+msgstr "Görsel Boyutu"
+
+#: dist/blocks.js:15 dist/blocks.js:17 dist/blocks.js:19
+msgid "Choose"
+msgstr "Seç"
+
+#: dist/blocks.js:15
+msgid "Fallback Image"
+msgstr "Yedek Görsel"
+
+#: dist/blocks.js:15
+msgid "Fallback"
+msgstr "Yedek"
+
+#: dist/blocks.js:15
+msgid "Redirect to this link if no dynamic link is found."
+msgstr "Dinamik bağlantı bulunamazsa bu bağlantıya yönlendirin."
+
+#: dist/blocks.js:15
+msgid "Show this text if no dynamic data is found."
+msgstr "Dinamik veri bulunamazsa bu metni göster."
+
+#: dist/blocks.js:15
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: dist/blocks.js:15
+msgid "Before"
+msgstr "Önce"
+
+#: dist/blocks.js:15
+msgid "After"
+msgstr "Sonrasında"
+
+#: dist/blocks.js:15
+msgid "Character Length"
+msgstr "Karakter Uzunluğu"
+
+#: dist/blocks.js:15
+msgid "Current Post"
+msgstr "Geçerli Gönderi"
+
+#: dist/blocks.js:15
+msgid "Archive"
+msgstr "Arşiv"
+
+#: dist/blocks.js:15
+msgid "Archive Description"
+msgstr "Arşiv Açıklaması"
+
+#: dist/blocks.js:15
+msgid "Archive Custom Field"
+msgstr "Arşiv Özel Alanı"
+
+#: dist/blocks.js:15
+msgid "Archive Title"
+msgstr "Arşiv Başlığı"
+
+#: dist/blocks.js:15
+msgid "Site"
+msgstr "Site"
+
+#: dist/blocks.js:15
+msgid "Site Tagline"
+msgstr "Site Sloganı"
+
+#: dist/blocks.js:15
+msgid "Site Title"
+msgstr "Site Başlığı"
+
+#: dist/blocks.js:15
+msgid "Request Parameter"
+msgstr "İstek Parametresi"
+
+#: dist/blocks.js:15 dist/blocks.js:19
+msgid "Shortcode"
+msgstr "Kısa Kod"
+
+#: dist/blocks.js:15
+msgid "User Custom Field - Current User"
+msgstr "Kullanıcı Özel Alanı - Geçerli Kullanıcı"
+
+#: dist/blocks.js:15
+msgid "Site Logo URL"
+msgstr "Site Logo URL'si"
+
+#: dist/blocks.js:15 dist/blocks.js:19
+msgid "Manual"
+msgstr "El ile"
+
+#: dist/blocks.js:15 dist/blocks.js:19
+msgid "Custom Input"
+msgstr "Özel Girdi"
+
+#: dist/blocks.js:15 dist/blocks.js:19
+msgid "Custom Fields"
+msgstr "Özel Alanlar"
+
+#: dist/blocks.js:15 dist/blocks.js:19
+msgid "Custom Field"
+msgstr "Özel Alan"
+
+#: dist/blocks.js:15 dist/blocks.js:19
+msgid "Custom Meta Key"
+msgstr "Özel Meta Anahtarı"
+
+#: dist/blocks.js:15
+msgid "Date Type"
+msgstr "Tarih Türü"
+
+#: dist/blocks.js:15 dist/blocks.js:17
+msgid "Post Published"
+msgstr "Gönderi Yayınlandı"
+
+#: dist/blocks.js:15 dist/blocks.js:17
+msgid "Post Modified"
+msgstr "Gönderi Değiştirildi"
+
+#: dist/blocks.js:15
+msgid "Date Format"
+msgstr "Tarih Formatı"
+
+#: dist/blocks.js:15
+msgid "Human Readable"
+msgstr "İnsan Tarafından Okunabilir"
+
+#: dist/blocks.js:15 dist/blocks.js:17
+msgid "Custom Format"
+msgstr "Özel Format"
+
+#. Translators: Link to date format article.
+#: dist/blocks.js:17 dist/blocks.js:19
+msgid "Learn more about date formats %1$shere%2$s."
+msgstr "Tarih biçimleri hakkında daha fazla bilgi edinin %1$sburada%2$s."
+
+#: dist/blocks.js:17
+msgid "Time Type"
+msgstr "Zaman Türü"
+
+#: dist/blocks.js:17
+msgid "Time Format"
+msgstr "Zaman Biçimi"
+
+#: dist/blocks.js:19 dist/blocks.js:23
+msgid "Featured Image"
+msgstr "Öne Çıkan Görsel"
+
+#: dist/blocks.js:19
+msgid "No Comments Format"
+msgstr "Yorum Yok Biçimi"
+
+#: dist/blocks.js:19
+msgid "One Comment Format"
+msgstr "Bir Yorum Formatı"
+
+#: dist/blocks.js:19
+msgid "Many Comment Format"
+msgstr "Çok Yorum Formatı"
+
+#: dist/blocks.js:19
+msgid "Separator"
+msgstr "Seperatör"
+
+#: dist/blocks.js:19
+msgid "Include Context"
+msgstr "Bağlamı Dahil Et"
+
+#: dist/blocks.js:19
+msgid "Saved Key"
+msgstr "Kaydedilen Anahtar"
+
+#: dist/blocks.js:19
+msgid "Meta Key"
+msgstr "Meta Anahtarı"
+
+#: dist/blocks.js:19
+msgid "Get"
+msgstr "Al"
+
+#: dist/blocks.js:19
+msgid "Post"
+msgstr "Gönderi"
+
+#: dist/blocks.js:19
+msgid "Query Var"
+msgstr "Sorgu Varyasyonu"
+
+#: dist/blocks.js:19
+msgid "Parameter Name"
+msgstr "Parametre Adı"
+
+#: dist/blocks.js:19
+msgid ""
+"When adding a Shortcode, please use the single quotes('') for shortcode "
+"attributes. Example format: [spectra id='123']"
+msgstr ""
+"Kısa Kod eklerken, kısa kod nitelikleri için tek tırnak işareti ('') "
+"kullanın. Örnek biçim: [spectra id='123']"
+
+#: dist/blocks.js:19
+msgid "ID"
+msgstr "ID"
+
+#: dist/blocks.js:19
+msgid "Display Name"
+msgstr "Adı Göster"
+
+#: dist/blocks.js:19
+msgid "Bio"
+msgstr "Biyografi"
+
+#: dist/blocks.js:19
+msgid "Website"
+msgstr "Web Site"
+
+#: dist/blocks.js:19 dist/blocks.js:23
+msgid "Post Title"
+msgstr "Gönderi Başlığı"
+
+#: dist/blocks.js:19 dist/blocks.js:23
+msgid "Post Excerpt"
+msgstr "Gönderi Özeti"
+
+#: dist/blocks.js:19 dist/blocks.js:23
+msgid "Post Custom Field"
+msgstr "Gönderi Özel Alanı"
+
+#: dist/blocks.js:19 dist/blocks.js:23
+msgid "Post Date"
+msgstr "Gönderi Tarihi"
+
+#: dist/blocks.js:19 dist/blocks.js:23
+msgid "Post Time"
+msgstr "Gönderi Zamanı"
+
+#: dist/blocks.js:19
+msgid "Post Terms"
+msgstr "Gönderi Şartları"
+
+#: dist/blocks.js:19 dist/blocks.js:23
+msgid "Post ID"
+msgstr "Gönderi Kimliği"
+
+#: dist/blocks.js:19 dist/blocks.js:23
+msgid "Comments Number"
+msgstr "Yorum Sayısı"
+
+#: dist/blocks.js:19
+msgid "Nickname"
+msgstr "Takma Ad"
+
+#: dist/blocks.js:19
+msgid "Avatar Image URL"
+msgstr "Avatar Görseli URL'si"
+
+#: dist/blocks.js:19
+msgid "Author Custom Field"
+msgstr "Yazar Özel Alanı"
+
+#: dist/blocks.js:19
+msgid "Avatar (Profile Image)"
+msgstr "Avatar (Profil Görseli)"
+
+#: dist/blocks.js:19
+msgid "Previous page"
+msgstr "Önceki sayfa"
+
+#: dist/blocks.js:19
+msgid "Page numbers"
+msgstr "Sayfa numaraları"
+
+#: dist/blocks.js:19
+msgid "Next page"
+msgstr "Yeni sayfa"
+
+#: dist/blocks.js:19
+msgid "Post Permalink"
+msgstr "Gönderi Kalıcı Bağlantısı"
+
+#: dist/blocks.js:19
+msgid "Comments Area"
+msgstr "Yorum Alanı"
+
+#: dist/blocks.js:19
+msgid "Avatar (Profile URL)"
+msgstr "Avatar (Profil URL'si)"
+
+#: dist/blocks.js:19
+msgid "Author Archive URL"
+msgstr "Yazar Arşivi URL'si"
+
+#: dist/blocks.js:19
+msgid "Author Page URL"
+msgstr "Yazar Sayfası URL'si"
+
+#: dist/blocks.js:19
+msgid "Dynamic Content"
+msgstr "Dinamik İçerik"
+
+#: dist/blocks.js:19
+msgid "Data Source"
+msgstr "Veri Kaynağı"
+
+#: dist/blocks.js:19
+msgid "Search Posts"
+msgstr "Gönderileri Ara"
+
+#: dist/blocks.js:19
+msgid "Search…"
+msgstr "Ara…"
+
+#: dist/blocks.js:19
+msgid "Source Field"
+msgstr "Kaynak Alanı"
+
+#: dist/blocks.js:19
+msgid "Enable Link"
+msgstr "Bağlantıyı Etkinleştir"
+
+#: dist/blocks.js:19
+msgid "Link Source"
+msgstr "Bağlantı Kaynağı"
+
+#: dist/blocks.js:19
+msgid "Replace Full Content"
+msgstr "Tam İçeriği Değiştir"
+
+#: dist/blocks.js:19
+msgid "Apply"
+msgstr "Uygula"
+
+#: dist/blocks.js:19 dist/blocks.js:23
+msgid "Update"
+msgstr "Güncelle"
+
+#: dist/blocks.js:19
+msgid ""
+"This block currently does not support use of multiple dynamic content "
+"sources."
+msgstr ""
+"Bu blok şu anda birden fazla dinamik içerik kaynağının kullanımını "
+"desteklemiyor."
+
+#: dist/blocks.js:19
+msgid "No Content"
+msgstr "İçerik Yok"
+
+#: dist/blocks.js:19
+msgid "Highlight"
+msgstr "Vurgu"
+
+#: dist/blocks.js:19
+msgid "Dynamic Image"
+msgstr "Dinamik GÖrsel"
+
+#: dist/blocks.js:19
+msgid "Dynamic Image Link"
+msgstr "Dinamik Görsel Bağlantısı"
+
+#: dist/blocks.js:19
+msgid "Dynamic"
+msgstr "Dinamik"
+
+#: dist/blocks.js:19
+msgid "Site Title is not available"
+msgstr "Site Başlığı mevcut değil"
+
+#: dist/blocks.js:19
+msgid "Site Description is not available"
+msgstr "Site Açıklaması mevcut değil"
+
+#. Translators: %s Author Meta name.
+#: dist/blocks.js:21 dist/blocks.js:23
+msgid "Author %s is not available."
+msgstr "Yazar %s bulunamadı."
+
+#: dist/blocks.js:23
+msgid "Post Terms List"
+msgstr "Gönderi Şartları Listesi"
+
+#: dist/blocks.js:23
+msgid "Author Name"
+msgstr "Yazar Adı"
+
+#: dist/blocks.js:23
+msgid "Author First Name"
+msgstr "Yazar Adı"
+
+#: dist/blocks.js:23
+msgid "Author Last Name"
+msgstr "Yazar Soyadı"
+
+#: dist/blocks.js:23
+msgid "Author Nickname"
+msgstr "Yazar Takma Adı"
+
+#: dist/blocks.js:23
+msgid "Author Bio"
+msgstr "Yazar Biyografisi"
+
+#: dist/blocks.js:23
+msgid "Author Avatar"
+msgstr "Yazar Avatarı"
+
+#: dist/blocks.js:23
+msgid "Author Meta"
+msgstr "Yazar Metası"
+
+#: dist/blocks.js:23
+msgid "Dynamic content"
+msgstr "Dinamik içerik"
+
+#: dist/blocks.js:23
+msgid "Trigger Type"
+msgstr "Tetikleyici Türü"
+
+#: dist/blocks.js:23
+msgid "Load"
+msgstr "Yükle"
+
+#: dist/blocks.js:23
+msgid "Element"
+msgstr "Öğe"
+
+#: dist/blocks.js:23
+msgid "Delay in Seconds"
+msgstr "Saniye Cinsinden Gecikme"
+
+#: dist/blocks.js:23
+msgid ""
+"Copy and paste the class above to any block's Additional Classes to create a "
+"clickable element that will trigger the popup."
+msgstr ""
+"Yukarıdaki sınıfı kopyalayıp herhangi bir bloğun Ek Sınıflarına yapıştırarak "
+"tıklanabilir bir öğe oluşturabilir ve açılır pencereyi tetikleyebilirsiniz."
+
+#: dist/blocks.js:23
+msgid "Entire Website"
+msgstr "Tüm Web Site"
+
+#: dist/blocks.js:23
+msgid "-- Select --"
+msgstr "-- Seç --"
+
+#: dist/blocks.js:23
+msgid "Start typing to search…"
+msgstr "Aramak için yazmaya başlayın…"
+
+#: dist/blocks.js:23
+msgid "Display Conditions"
+msgstr "Gösterme Koşulları"
+
+#: dist/blocks.js:23
+msgid "Display On"
+msgstr "Göster"
+
+#: dist/blocks.js:23
+msgid "Do Not Display On"
+msgstr "Gösterme"
+
+#: dist/blocks.js:23
+msgid "Linear"
+msgstr "Doğrusal"
+
+#: dist/blocks.js:23
+msgid "Ease"
+msgstr "Yumuşatma"
+
+#: dist/blocks.js:23
+msgid "Ease In"
+msgstr "Yumuşak Başlangıç"
+
+#: dist/blocks.js:23
+msgid "Ease Out"
+msgstr "Yumuşak Bitiş"
+
+#: dist/blocks.js:23
+msgid "Ease In Out"
+msgstr "Yumuşak Başlangıç ve Bitiş"
+
+#: dist/blocks.js:23
+msgctxt "1 second"
+msgid "1s"
+msgstr "1sn"
+
+#: dist/blocks.js:23
+msgctxt "2 seconds"
+msgid "2s"
+msgstr "2sn"
+
+#: dist/blocks.js:23
+msgid "Animation Duration"
+msgstr "Animasyon Süresi"
+
+#: dist/blocks.js:23
+msgid "Duration sets the runtime of the animation."
+msgstr "Süre, animasyonun çalışma zamanını ayarlar."
+
+#: dist/blocks.js:23
+msgid "Animation Delay"
+msgstr "Animasyon Gecikmesi"
+
+#: dist/blocks.js:23
+msgid "Delay marks how long to wait before the animation starts playing."
+msgstr ""
+"Gecikme, animasyonun oynatılmaya başlamasından önce ne kadar bekleneceğini "
+"belirtir."
+
+#: dist/blocks.js:23
+msgid "Animation Easing"
+msgstr "Animasyon Kolaylaştırma"
+
+#: dist/blocks.js:23
+msgid ""
+"Easing can help provide a natural feel to the animation by affecting it's "
+"speed at a specific interval."
+msgstr ""
+"Yumuşatma, animasyonun hızını belirli bir aralıkta etkileyerek ona doğal bir "
+"his kazandırmaya yardımcı olabilir."
+
+#: dist/blocks.js:23
+msgid "Preview"
+msgstr "Önizleme"
+
+#: dist/blocks.js:23
+msgid "Play Repeatedly on Scroll"
+msgstr "Kaydırmada Tekrar Tekrar Oynat"
+
+#: dist/blocks.js:23
+msgid "Show Advanced Settings"
+msgstr "Gelişmiş Ayarları Göster"
+
+#: dist/blocks.js:23
+msgid "Apply Only to Content"
+msgstr "Yalnızca İçeriğe Uygula"
+
+#: dist/blocks.js:23
+msgid "If checked, animations will not be applied to this container itself."
+msgstr "İşaretlenirse animasyonlar bu konteynera uygulanmaz."
+
+#: dist/blocks.js:23
+msgid "Delay Interval for Content"
+msgstr "İçerik için Gecikme Aralığı"
+
+#: dist/blocks.js:23
+msgctxt "0.1 seconds"
+msgid "0.1s"
+msgstr "0.1sn"
+
+#: dist/blocks.js:23
+msgctxt "0.2 seconds"
+msgid "0.2s"
+msgstr "0.2sn"
+
+#: dist/blocks.js:23
+msgid "Set delay increments for nested blocks."
+msgstr "İç içe bloklar için gecikme artışlarını ayarlayın."
+
+#: dist/blocks.js:23
+msgid "Apply to Nested Blocks"
+msgstr "İç İçe Bloklara Uygula"
+
+#: dist/blocks.js:23
+msgid "Remove from Nested Blocks"
+msgstr "İç İçe Bloklardan Kaldır"
+
+#: dist/blocks.js:23
+msgid "Remove"
+msgstr "Kaldır"
+
+#: dist/blocks.js:23
+msgid "Cancel"
+msgstr "İptal"
+
+#: dist/blocks.js:23
+msgid "Please enter a style name"
+msgstr "Lütfen bir stil adı girin"
+
+#: dist/blocks.js:23
+msgid "Style name should be more then 3 characters and less then 50 characters"
+msgstr "Stil adı 3 karakterden fazla ve 50 karakterden az olmalıdır"
+
+#: dist/blocks.js:23
+msgid "Style name already exists"
+msgstr "Stil adı zaten mevcut"
+
+#: dist/blocks.js:23
+msgid "Style name should not contain special characters"
+msgstr "Stil adı özel karakterler içermemelidir"
+
+#: dist/blocks.js:23
+msgid "Manage Styles"
+msgstr "Stilleri Yönet"
+
+#: dist/blocks.js:23
+msgid "Global Block Styles"
+msgstr "Küresel Blok Stilleri"
+
+#: dist/blocks.js:23
+msgid "NAME"
+msgstr "AD"
+
+#: dist/blocks.js:23
+msgid "Delete All"
+msgstr "Tümünü Sil"
+
+#: dist/blocks.js:23
+msgid "No Global Style Found"
+msgstr "Küresel Stil Bulunamadı"
+
+#: dist/blocks.js:23
+msgid "When you create a block style, you'll see it reflected here."
+msgstr ""
+"Bir blok stili oluşturduğunuzda, onun burada yansıtıldığını göreceksiniz."
