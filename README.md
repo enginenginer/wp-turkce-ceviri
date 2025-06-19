@@ -46,8 +46,8 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
     - Dosya yolu: `plugins/spectra-pro/1.2.4/`
 
 - **Woocommerce**  
-  - Sürüm: 9.8.5  
-    - Dosya yolu: `plugins/woocommerce/9.8.5/`
+  - Sürüm: 9.9.4  
+    - Dosya yolu: `plugins/woocommerce/9.9.4/`
 
 ## Kullanım
 
