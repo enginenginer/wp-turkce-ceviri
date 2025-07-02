@@ -25,6 +25,10 @@ Bu repoda çeşitli WordPress tema ve eklentilerinin Türkçe çeviri dosyaları
   - Sürüm: 4.11.2  
     - Dosya yolu: `plugins/astra-pro/4.11.2/`
 
+- **Elementor**  
+  - Sürüm: 3.30.0  
+    - Dosya yolu: `plugins/elementor/3.30.0/`
+
 - **LiteSpeed Cache**  
   - Sürüm: 7.1  
     - Dosya yolu: `plugins/litespeed-cache/7.1/`
